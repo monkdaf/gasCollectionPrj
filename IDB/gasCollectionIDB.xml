@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Bridges UID="Ref-1" version="7.3" LastChange="11/3/2016 2:04:20 PM">
+<Bridges UID="Ref-1" version="7.3" LastChange="11/24/2016 11:40:00 AM">
   <Link UID="Ref-2" Name="SHKUch-7_CurData">
     <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
       <ConfigConsumerDB2>
@@ -2069,6 +2069,350 @@
           <TableName>PlcSum10</TableName>
           <active>0</active>
           <DataColumn>FE3_25_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-119" Name="SHKUch-1_CurData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>168</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2000</LocalTSAP>
+        <PartnerTSAP>2000</PartnerTSAP>
+        <PartnerIP>10.27.142.82</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-120" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-121" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-122" Name="PE1_1" ShortDescProvider="8, R4" ShortDescConsumer="PE1_1">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>PE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-123" Name="TE1_1" ShortDescProvider="12, R4" ShortDescConsumer="TE1_1">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>TE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-124" Name="QE1_1" ShortDescProvider="16, R4" ShortDescConsumer="QE1_1">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>QE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-125" Name="FE1_1" ShortDescProvider="20, R4" ShortDescConsumer="FE1_1">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-126" Name="FE1_1_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE1_1_norm">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-127" Name="FE1_1_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE1_1_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-128" Name="SHKUch-1_SumData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>168</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2001</LocalTSAP>
+        <PartnerTSAP>2001</PartnerTSAP>
+        <PartnerIP>10.27.142.82</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-129" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-130" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-131" Name="PE1_1" ShortDescProvider="8, R4" ShortDescConsumer="PE1_1">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>PE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-132" Name="TE1_1" ShortDescProvider="12, R4" ShortDescConsumer="TE1_1">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>TE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-133" Name="QE1_1" ShortDescProvider="16, R4" ShortDescConsumer="QE1_1">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>QE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-134" Name="FE1_1" ShortDescProvider="20, R4" ShortDescConsumer="FE1_1">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-135" Name="FE1_1_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE1_1_norm">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-136" Name="FE1_1_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE1_1_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum01</TableName>
+          <active>0</active>
+          <DataColumn>FE1_1_norm_Q</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
