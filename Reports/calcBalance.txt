@@ -1,0 +1,19 @@
+﻿Потери в линиях
+КРП1 Fields!comprKKC1.Value + Fields!comprLindeGas1.Value - Fields!KKC1.Value
+КРП2 Fields!comprKKC2.Value + Fields!comprLindeGas2.Value - Fields!KKC2.Value
+Линде1 Fields!LindeGas1.Value - Fields!comprLindeGas1.Value
+Линде2 Fields!LindeGas2.Value - Fields!comprLindeGas2.Value
+ТЭЦ1,2 Fields!comprTEP1.Value + Fields!comprTEP2.Value + Fields!LindeGasTEP12.Value - Fields!TEP1.Value - Fields!TEP2.Value
+ТЭЦ3 Fields!comprTEP3.Value - Fields!TEP3.Value
+
+Итого распред
+технич Fields!KKC1.Value+Fields!KKC2.Value+Fields!autogen.Value
+технолог Fields!TEP1.Value + Fields!TEP2.Value + Fields!TEP3.Value
+
+Потери
+технич (Fields!comprKKC1.Value + Fields!comprLindeGas1.Value - Fields!KKC1.Value)+(Fields!comprKKC2.Value + Fields!comprLindeGas2.Value - Fields!KKC2.Value)+(Fields!LindeGas1.Value - Fields!comprLindeGas1.Value)+(Fields!LindeGas2.Value - Fields!comprLindeGas2.Value)
+технолог (Fields!comprTEP1.Value + Fields!comprTEP2.Value + Fields!LindeGasTEP12.Value - Fields!TEP1.Value - Fields!TEP2.Value)+(Fields!comprTEP3.Value - Fields!TEP3.Value)
+
+Баланс
+технич Fields!AKAR2.Value + Fields!KAR30_6.Value + Fields!KAR30_7.Value + Fields!KAR30_8.Value-Fields!KKC1.Value-Fields!KKC2.Value-((Fields!comprKKC1.Value + Fields!comprLindeGas1.Value - Fields!KKC1.Value)+(Fields!comprKKC2.Value + Fields!comprLindeGas2.Value - Fields!KKC2.Value)+(Fields!LindeGas1.Value - Fields!comprLindeGas1.Value)+(Fields!LindeGas2.Value - Fields!comprLindeGas2.Value)) 
+технолог (0)-(Fields!TEP1.Value-Fields!TEP2.Value-Fields!TEP3.Value-(Fields!comprTEP1.Value + Fields!comprTEP2.Value + Fields!LindeGasTEP12.Value - Fields!TEP1.Value - Fields!TEP2.Value)+(Fields!comprTEP3.Value - Fields!TEP3.Value))
