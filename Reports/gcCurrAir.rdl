@@ -1400,7 +1400,7 @@ ORDER BY dt DESC</CommandText>
                       </Style>
                     </TextRun>
                     <TextRun>
-                      <Value>=Globals!ExecutionTime</Value>
+                      <Value>=Format(Globals!ExecutionTime, "dd.MM.yyyy, HH:mm:ss")</Value>
                       <Style>
                         <FontFamily>Calibri</FontFamily>
                       </Style>
