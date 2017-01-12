@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Bridges UID="Ref-1" version="7.3" LastChange="11/25/2016 8:10:06 AM">
+<Bridges UID="Ref-1" version="7.3" LastChange="12/29/2016 9:07:08 AM">
   <Link UID="Ref-2" Name="SHKUch-7_CurData">
     <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
       <ConfigConsumerDB2>
@@ -1578,7 +1578,7 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>52</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2016</LocalTSAP>
         <PartnerTSAP>2016</PartnerTSAP>
@@ -1840,7 +1840,7 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>52</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2017</LocalTSAP>
         <PartnerTSAP>2017</PartnerTSAP>
@@ -2102,10 +2102,10 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>32</DataLength>
         <ProtocolType>TCPN</ProtocolType>
-        <LocalTSAP>2000</LocalTSAP>
-        <PartnerTSAP>2000</PartnerTSAP>
+        <LocalTSAP>2020</LocalTSAP>
+        <PartnerTSAP>2020</PartnerTSAP>
         <PartnerIP>10.27.142.82</PartnerIP>
         <ConnectionActive>0</ConnectionActive>
         <MonitoringCycle>0</MonitoringCycle>
@@ -2175,7 +2175,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-124" Name="QE1_1" ShortDescProvider="16, R4" ShortDescConsumer="QE1_1">
+      <Connection UID="Ref-124" Name="FE1_1" ShortDescProvider="16, R4" ShortDescConsumer="FE1_1">
         <DataDescProviderSR>
           <StartAddress>16</StartAddress>
           <DataType>4</DataType>
@@ -2186,14 +2186,14 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcCur01</TableName>
           <active>0</active>
-          <DataColumn>QE1_1</DataColumn>
+          <DataColumn>FE1_1</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-125" Name="FE1_1" ShortDescProvider="20, R4" ShortDescConsumer="FE1_1">
+      <Connection UID="Ref-125" Name="QE1_1" ShortDescProvider="20, R4" ShortDescConsumer="QE1_1">
         <DataDescProviderSR>
           <StartAddress>20</StartAddress>
           <DataType>4</DataType>
@@ -2204,7 +2204,7 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcCur01</TableName>
           <active>0</active>
-          <DataColumn>FE1_1</DataColumn>
+          <DataColumn>QE1_1</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
@@ -2274,7 +2274,7 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>32</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2001</LocalTSAP>
         <PartnerTSAP>2001</PartnerTSAP>
@@ -2347,7 +2347,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-133" Name="QE1_1" ShortDescProvider="16, R4" ShortDescConsumer="QE1_1">
+      <Connection UID="Ref-133" Name="FE1_1" ShortDescProvider="16, R4" ShortDescConsumer="FE1_1">
         <DataDescProviderSR>
           <StartAddress>16</StartAddress>
           <DataType>4</DataType>
@@ -2358,14 +2358,14 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcSum01</TableName>
           <active>0</active>
-          <DataColumn>QE1_1</DataColumn>
+          <DataColumn>FE1_1</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-134" Name="FE1_1" ShortDescProvider="20, R4" ShortDescConsumer="FE1_1">
+      <Connection UID="Ref-134" Name="QE1_1" ShortDescProvider="20, R4" ShortDescConsumer="QE1_1">
         <DataDescProviderSR>
           <StartAddress>20</StartAddress>
           <DataType>4</DataType>
@@ -2376,7 +2376,7 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcSum01</TableName>
           <active>0</active>
-          <DataColumn>FE1_1</DataColumn>
+          <DataColumn>QE1_1</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
@@ -2446,11 +2446,11 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>104</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2006</LocalTSAP>
         <PartnerTSAP>2006</PartnerTSAP>
-        <PartnerIP>10.27.142.115</PartnerIP>
+        <PartnerIP>10.27.142.114</PartnerIP>
         <ConnectionActive>0</ConnectionActive>
         <MonitoringCycle>0</MonitoringCycle>
         <MonitoringTime>0</MonitoringTime>
@@ -2483,387 +2483,9 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-140" Name="PE3_1" ShortDescProvider="8, R4" ShortDescConsumer="PE3_1">
+      <Connection UID="Ref-140" Name="QE3_2" ShortDescProvider="8, R4" ShortDescConsumer="QE3_2">
         <DataDescProviderSR>
           <StartAddress>8</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-141" Name="TE3_1" ShortDescProvider="12, R4" ShortDescConsumer="TE3_1">
-        <DataDescProviderSR>
-          <StartAddress>12</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-142" Name="QE3_1" ShortDescProvider="16, R4" ShortDescConsumer="QE3_1">
-        <DataDescProviderSR>
-          <StartAddress>16</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>QE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-143" Name="FE3_1" ShortDescProvider="20, R4" ShortDescConsumer="FE3_1">
-        <DataDescProviderSR>
-          <StartAddress>20</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-144" Name="FE3_1_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE3_1_norm">
-        <DataDescProviderSR>
-          <StartAddress>24</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-145" Name="FE3_1_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE3_1_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>28</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-146" Name="PE3_2" ShortDescProvider="32, R4" ShortDescConsumer="PE3_2">
-        <DataDescProviderSR>
-          <StartAddress>32</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-147" Name="TE3_2" ShortDescProvider="36, R4" ShortDescConsumer="TE3_2">
-        <DataDescProviderSR>
-          <StartAddress>36</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-148" Name="FE3_2" ShortDescProvider="40, R4" ShortDescConsumer="FE3_2">
-        <DataDescProviderSR>
-          <StartAddress>40</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-149" Name="FE3_2_norm" ShortDescProvider="44, R4" ShortDescConsumer="FE3_2_norm">
-        <DataDescProviderSR>
-          <StartAddress>44</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-150" Name="FE3_2_norm_Q" ShortDescProvider="48, R4" ShortDescConsumer="FE3_2_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>48</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-151" Name="PE3_3" ShortDescProvider="52, R4" ShortDescConsumer="PE3_3">
-        <DataDescProviderSR>
-          <StartAddress>52</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-152" Name="TE3_3" ShortDescProvider="56, R4" ShortDescConsumer="TE3_3">
-        <DataDescProviderSR>
-          <StartAddress>56</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-153" Name="FE3_3" ShortDescProvider="60, R4" ShortDescConsumer="FE3_3">
-        <DataDescProviderSR>
-          <StartAddress>60</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-154" Name="FE3_3_norm" ShortDescProvider="64, R4" ShortDescConsumer="FE3_3_norm">
-        <DataDescProviderSR>
-          <StartAddress>64</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-155" Name="FE3_3_norm_Q" ShortDescProvider="68, R4" ShortDescConsumer="FE3_3_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>68</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-156" Name="PE3_4" ShortDescProvider="72, R4" ShortDescConsumer="PE3_4">
-        <DataDescProviderSR>
-          <StartAddress>72</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-157" Name="TE3_4" ShortDescProvider="76, R4" ShortDescConsumer="TE3_4">
-        <DataDescProviderSR>
-          <StartAddress>76</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-158" Name="FE3_4" ShortDescProvider="80, R4" ShortDescConsumer="FE3_4">
-        <DataDescProviderSR>
-          <StartAddress>80</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-159" Name="FE3_4_norm" ShortDescProvider="84, R4" ShortDescConsumer="FE3_4_norm">
-        <DataDescProviderSR>
-          <StartAddress>84</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-160" Name="FE3_4_norm_Q" ShortDescProvider="88, R4" ShortDescConsumer="FE3_4_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>88</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcCur04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-161" Name="QE3_2" ShortDescProvider="92, R4" ShortDescConsumer="QE3_2">
-        <DataDescProviderSR>
-          <StartAddress>92</StartAddress>
           <DataType>4</DataType>
           <ParameterCount>
           </ParameterCount>
@@ -2879,9 +2501,9 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-162" Name="QE3_3" ShortDescProvider="96, R4" ShortDescConsumer="QE3_3">
+      <Connection UID="Ref-141" Name="QE3_3" ShortDescProvider="12, R4" ShortDescConsumer="QE3_3">
         <DataDescProviderSR>
-          <StartAddress>96</StartAddress>
+          <StartAddress>12</StartAddress>
           <DataType>4</DataType>
           <ParameterCount>
           </ParameterCount>
@@ -2897,7 +2519,385 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-163" Name="QE3_4" ShortDescProvider="100, R4" ShortDescConsumer="QE3_4">
+      <Connection UID="Ref-142" Name="QE3_4" ShortDescProvider="16, R4" ShortDescConsumer="QE3_4">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>QE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-143" Name="PE3_1" ShortDescProvider="20, R4" ShortDescConsumer="PE3_1">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-144" Name="TE3_1" ShortDescProvider="24, R4" ShortDescConsumer="TE3_1">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-145" Name="FE3_1" ShortDescProvider="28, R4" ShortDescConsumer="FE3_1">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-146" Name="QE3_1" ShortDescProvider="32, R4" ShortDescConsumer="QE3_1">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>QE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-147" Name="FE3_1_norm" ShortDescProvider="36, R4" ShortDescConsumer="FE3_1_norm">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-148" Name="FE3_1_norm_Q" ShortDescProvider="40, R4" ShortDescConsumer="FE3_1_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-149" Name="PE3_2" ShortDescProvider="44, R4" ShortDescConsumer="PE3_2">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-150" Name="TE3_2" ShortDescProvider="48, R4" ShortDescConsumer="TE3_2">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-151" Name="FE3_2" ShortDescProvider="52, R4" ShortDescConsumer="FE3_2">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-152" Name="FE3_2_norm" ShortDescProvider="56, R4" ShortDescConsumer="FE3_2_norm">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-153" Name="FE3_2_norm_Q" ShortDescProvider="60, R4" ShortDescConsumer="FE3_2_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-154" Name="PE3_3" ShortDescProvider="64, R4" ShortDescConsumer="PE3_3">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-155" Name="TE3_3" ShortDescProvider="68, R4" ShortDescConsumer="TE3_3">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-156" Name="FE3_3" ShortDescProvider="72, R4" ShortDescConsumer="FE3_3">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-157" Name="FE3_3_norm" ShortDescProvider="76, R4" ShortDescConsumer="FE3_3_norm">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-158" Name="FE3_3_norm_Q" ShortDescProvider="80, R4" ShortDescConsumer="FE3_3_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-159" Name="PE3_4" ShortDescProvider="84, R4" ShortDescConsumer="PE3_4">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-160" Name="TE3_4" ShortDescProvider="88, R4" ShortDescConsumer="TE3_4">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-161" Name="FE3_4" ShortDescProvider="92, R4" ShortDescConsumer="FE3_4">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-162" Name="FE3_4_norm" ShortDescProvider="96, R4" ShortDescConsumer="FE3_4_norm">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_4_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-163" Name="FE3_4_norm_Q" ShortDescProvider="100, R4" ShortDescConsumer="FE3_4_norm_Q">
         <DataDescProviderSR>
           <StartAddress>100</StartAddress>
           <DataType>4</DataType>
@@ -2908,7 +2908,7 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcCur04</TableName>
           <active>0</active>
-          <DataColumn>QE3_4</DataColumn>
+          <DataColumn>FE3_4_norm_Q</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
@@ -2942,11 +2942,11 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>168</DataLength>
+        <DataLength>104</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2007</LocalTSAP>
         <PartnerTSAP>2007</PartnerTSAP>
-        <PartnerIP>10.27.142.115</PartnerIP>
+        <PartnerIP>10.27.142.114</PartnerIP>
         <ConnectionActive>0</ConnectionActive>
         <MonitoringCycle>0</MonitoringCycle>
         <MonitoringTime>0</MonitoringTime>
@@ -2979,387 +2979,9 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-167" Name="PE3_1" ShortDescProvider="8, R4" ShortDescConsumer="PE3_1">
+      <Connection UID="Ref-167" Name="QE3_2" ShortDescProvider="8, R4" ShortDescConsumer="QE3_2">
         <DataDescProviderSR>
           <StartAddress>8</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-168" Name="TE3_1" ShortDescProvider="12, R4" ShortDescConsumer="TE3_1">
-        <DataDescProviderSR>
-          <StartAddress>12</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-169" Name="QE3_1" ShortDescProvider="16, R4" ShortDescConsumer="QE3_1">
-        <DataDescProviderSR>
-          <StartAddress>16</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>QE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-170" Name="FE3_1" ShortDescProvider="20, R4" ShortDescConsumer="FE3_1">
-        <DataDescProviderSR>
-          <StartAddress>20</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-171" Name="FE3_1_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE3_1_norm">
-        <DataDescProviderSR>
-          <StartAddress>24</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-172" Name="FE3_1_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE3_1_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>28</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_1_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-173" Name="PE3_2" ShortDescProvider="32, R4" ShortDescConsumer="PE3_2">
-        <DataDescProviderSR>
-          <StartAddress>32</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-174" Name="TE3_2" ShortDescProvider="36, R4" ShortDescConsumer="TE3_2">
-        <DataDescProviderSR>
-          <StartAddress>36</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-175" Name="FE3_2" ShortDescProvider="40, R4" ShortDescConsumer="FE3_2">
-        <DataDescProviderSR>
-          <StartAddress>40</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-176" Name="FE3_2_norm" ShortDescProvider="44, R4" ShortDescConsumer="FE3_2_norm">
-        <DataDescProviderSR>
-          <StartAddress>44</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-177" Name="FE3_2_norm_Q" ShortDescProvider="48, R4" ShortDescConsumer="FE3_2_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>48</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_2_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-178" Name="PE3_3" ShortDescProvider="52, R4" ShortDescConsumer="PE3_3">
-        <DataDescProviderSR>
-          <StartAddress>52</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-179" Name="TE3_3" ShortDescProvider="56, R4" ShortDescConsumer="TE3_3">
-        <DataDescProviderSR>
-          <StartAddress>56</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-180" Name="FE3_3" ShortDescProvider="60, R4" ShortDescConsumer="FE3_3">
-        <DataDescProviderSR>
-          <StartAddress>60</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-181" Name="FE3_3_norm" ShortDescProvider="64, R4" ShortDescConsumer="FE3_3_norm">
-        <DataDescProviderSR>
-          <StartAddress>64</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-182" Name="FE3_3_norm_Q" ShortDescProvider="68, R4" ShortDescConsumer="FE3_3_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>68</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_3_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-183" Name="PE3_4" ShortDescProvider="72, R4" ShortDescConsumer="PE3_4">
-        <DataDescProviderSR>
-          <StartAddress>72</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>PE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-184" Name="TE3_4" ShortDescProvider="76, R4" ShortDescConsumer="TE3_4">
-        <DataDescProviderSR>
-          <StartAddress>76</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>TE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-185" Name="FE3_4" ShortDescProvider="80, R4" ShortDescConsumer="FE3_4">
-        <DataDescProviderSR>
-          <StartAddress>80</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-186" Name="FE3_4_norm" ShortDescProvider="84, R4" ShortDescConsumer="FE3_4_norm">
-        <DataDescProviderSR>
-          <StartAddress>84</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4_norm</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-187" Name="FE3_4_norm_Q" ShortDescProvider="88, R4" ShortDescConsumer="FE3_4_norm_Q">
-        <DataDescProviderSR>
-          <StartAddress>88</StartAddress>
-          <DataType>4</DataType>
-          <ParameterCount>
-          </ParameterCount>
-          <Compatibility>0</Compatibility>
-        </DataDescProviderSR>
-        <DataDescConsumerDB2 TagFileNameConn="0">
-          <TableName>PlcSum04</TableName>
-          <active>0</active>
-          <DataColumn>FE3_4_norm_Q</DataColumn>
-          <DataType>4</DataType>
-          <TimeStampColumn>
-          </TimeStampColumn>
-          <Schema>dbo</Schema>
-        </DataDescConsumerDB2>
-      </Connection>
-      <Connection UID="Ref-188" Name="QE3_2" ShortDescProvider="92, R4" ShortDescConsumer="QE3_2">
-        <DataDescProviderSR>
-          <StartAddress>92</StartAddress>
           <DataType>4</DataType>
           <ParameterCount>
           </ParameterCount>
@@ -3375,9 +2997,9 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-189" Name="QE3_3" ShortDescProvider="96, R4" ShortDescConsumer="QE3_3">
+      <Connection UID="Ref-168" Name="QE3_3" ShortDescProvider="12, R4" ShortDescConsumer="QE3_3">
         <DataDescProviderSR>
-          <StartAddress>96</StartAddress>
+          <StartAddress>12</StartAddress>
           <DataType>4</DataType>
           <ParameterCount>
           </ParameterCount>
@@ -3393,7 +3015,385 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-190" Name="QE3_4" ShortDescProvider="100, R4" ShortDescConsumer="QE3_4">
+      <Connection UID="Ref-169" Name="QE3_4" ShortDescProvider="16, R4" ShortDescConsumer="QE3_4">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>QE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-170" Name="PE3_1" ShortDescProvider="20, R4" ShortDescConsumer="PE3_1">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-171" Name="TE3_1" ShortDescProvider="24, R4" ShortDescConsumer="TE3_1">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-172" Name="FE3_1" ShortDescProvider="28, R4" ShortDescConsumer="FE3_1">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-173" Name="QE3_1" ShortDescProvider="32, R4" ShortDescConsumer="QE3_1">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>QE3_1</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-174" Name="FE3_1_norm" ShortDescProvider="36, R4" ShortDescConsumer="FE3_1_norm">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-175" Name="FE3_1_norm_Q" ShortDescProvider="40, R4" ShortDescConsumer="FE3_1_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_1_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-176" Name="PE3_2" ShortDescProvider="44, R4" ShortDescConsumer="PE3_2">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-177" Name="TE3_2" ShortDescProvider="48, R4" ShortDescConsumer="TE3_2">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-178" Name="FE3_2" ShortDescProvider="52, R4" ShortDescConsumer="FE3_2">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-179" Name="FE3_2_norm" ShortDescProvider="56, R4" ShortDescConsumer="FE3_2_norm">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-180" Name="FE3_2_norm_Q" ShortDescProvider="60, R4" ShortDescConsumer="FE3_2_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_2_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-181" Name="PE3_3" ShortDescProvider="64, R4" ShortDescConsumer="PE3_3">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-182" Name="TE3_3" ShortDescProvider="68, R4" ShortDescConsumer="TE3_3">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-183" Name="FE3_3" ShortDescProvider="72, R4" ShortDescConsumer="FE3_3">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-184" Name="FE3_3_norm" ShortDescProvider="76, R4" ShortDescConsumer="FE3_3_norm">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-185" Name="FE3_3_norm_Q" ShortDescProvider="80, R4" ShortDescConsumer="FE3_3_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_3_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-186" Name="PE3_4" ShortDescProvider="84, R4" ShortDescConsumer="PE3_4">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>PE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-187" Name="TE3_4" ShortDescProvider="88, R4" ShortDescConsumer="TE3_4">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>TE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-188" Name="FE3_4" ShortDescProvider="92, R4" ShortDescConsumer="FE3_4">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-189" Name="FE3_4_norm" ShortDescProvider="96, R4" ShortDescConsumer="FE3_4_norm">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum04</TableName>
+          <active>0</active>
+          <DataColumn>FE3_4_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-190" Name="FE3_4_norm_Q" ShortDescProvider="100, R4" ShortDescConsumer="FE3_4_norm_Q">
         <DataDescProviderSR>
           <StartAddress>100</StartAddress>
           <DataType>4</DataType>
@@ -3404,7 +3404,3019 @@
         <DataDescConsumerDB2 TagFileNameConn="0">
           <TableName>PlcSum04</TableName>
           <active>0</active>
-          <DataColumn>QE3_4</DataColumn>
+          <DataColumn>FE3_4_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-191" Name="SHKUch-3_CurData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>108</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2004</LocalTSAP>
+        <PartnerTSAP>2004</PartnerTSAP>
+        <PartnerIP>10.27.142.98</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-192" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-193" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-194" Name="QE3_7" ShortDescProvider="8, R4" ShortDescConsumer="QE3_7">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-195" Name="QE3_8" ShortDescProvider="12, R4" ShortDescConsumer="QE3_8">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-196" Name="QE3_9" ShortDescProvider="16, R4" ShortDescConsumer="QE3_9">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-197" Name="PE3_5" ShortDescProvider="20, R4" ShortDescConsumer="PE3_5">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-198" Name="TE3_5" ShortDescProvider="24, R4" ShortDescConsumer="TE3_5">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-199" Name="FE3_5" ShortDescProvider="28, R4" ShortDescConsumer="FE3_5">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-200" Name="QE3_5" ShortDescProvider="32, R4" ShortDescConsumer="QE3_5">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-201" Name="FE3_5_norm" ShortDescProvider="36, R4" ShortDescConsumer="FE3_5_norm">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-202" Name="FE3_5_norm_Q" ShortDescProvider="40, R4" ShortDescConsumer="FE3_5_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-203" Name="PE3_6" ShortDescProvider="44, R4" ShortDescConsumer="PE3_6">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-204" Name="TE3_6" ShortDescProvider="48, R4" ShortDescConsumer="TE3_6">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-205" Name="FE3_6" ShortDescProvider="52, R4" ShortDescConsumer="FE3_6">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-206" Name="FE3_6_norm" ShortDescProvider="56, R4" ShortDescConsumer="FE3_6_norm">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-207" Name="FE3_6_norm_Q" ShortDescProvider="60, R4" ShortDescConsumer="FE3_6_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-208" Name="PE3_7" ShortDescProvider="64, R4" ShortDescConsumer="PE3_7">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-209" Name="TE3_7" ShortDescProvider="68, R4" ShortDescConsumer="TE3_7">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-210" Name="FE3_7" ShortDescProvider="72, R4" ShortDescConsumer="FE3_7">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-211" Name="FE3_7_norm" ShortDescProvider="76, R4" ShortDescConsumer="FE3_7_norm">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-212" Name="FE3_7_norm_Q" ShortDescProvider="80, R4" ShortDescConsumer="FE3_7_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-213" Name="PE3_8" ShortDescProvider="84, R4" ShortDescConsumer="PE3_8">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-214" Name="TE3_8" ShortDescProvider="88, R4" ShortDescConsumer="TE3_8">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-215" Name="FE3_8" ShortDescProvider="92, R4" ShortDescConsumer="FE3_8">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-216" Name="QE3_6" ShortDescProvider="96, R4" ShortDescConsumer="QE3_6">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-217" Name="FE3_8_norm" ShortDescProvider="100, R4" ShortDescConsumer="FE3_8_norm">
+        <DataDescProviderSR>
+          <StartAddress>100</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-218" Name="FE3_8_norm_Q" ShortDescProvider="104, R4" ShortDescConsumer="FE3_8_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>104</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-219" Name="SHKUch-3_SumData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>108</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2005</LocalTSAP>
+        <PartnerTSAP>2005</PartnerTSAP>
+        <PartnerIP>10.27.142.98</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-220" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-221" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-222" Name="QE3_7" ShortDescProvider="8, R4" ShortDescConsumer="QE3_7">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-223" Name="QE3_8" ShortDescProvider="12, R4" ShortDescConsumer="QE3_8">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-224" Name="QE3_9" ShortDescProvider="16, R4" ShortDescConsumer="QE3_9">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-225" Name="PE3_5" ShortDescProvider="20, R4" ShortDescConsumer="PE3_5">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-226" Name="TE3_5" ShortDescProvider="24, R4" ShortDescConsumer="TE3_5">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-227" Name="FE3_5" ShortDescProvider="28, R4" ShortDescConsumer="FE3_5">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-228" Name="QE3_5" ShortDescProvider="32, R4" ShortDescConsumer="QE3_5">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_5</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-229" Name="FE3_5_norm" ShortDescProvider="36, R4" ShortDescConsumer="FE3_5_norm">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-230" Name="FE3_5_norm_Q" ShortDescProvider="40, R4" ShortDescConsumer="FE3_5_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_5_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-231" Name="PE3_6" ShortDescProvider="44, R4" ShortDescConsumer="PE3_6">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-232" Name="TE3_6" ShortDescProvider="48, R4" ShortDescConsumer="TE3_6">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-233" Name="FE3_6" ShortDescProvider="52, R4" ShortDescConsumer="FE3_6">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-234" Name="FE3_6_norm" ShortDescProvider="56, R4" ShortDescConsumer="FE3_6_norm">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-235" Name="FE3_6_norm_Q" ShortDescProvider="60, R4" ShortDescConsumer="FE3_6_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_6_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-236" Name="PE3_7" ShortDescProvider="64, R4" ShortDescConsumer="PE3_7">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-237" Name="TE3_7" ShortDescProvider="68, R4" ShortDescConsumer="TE3_7">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-238" Name="FE3_7" ShortDescProvider="72, R4" ShortDescConsumer="FE3_7">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-239" Name="FE3_7_norm" ShortDescProvider="76, R4" ShortDescConsumer="FE3_7_norm">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-240" Name="FE3_7_norm_Q" ShortDescProvider="80, R4" ShortDescConsumer="FE3_7_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_7_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-241" Name="PE3_8" ShortDescProvider="84, R4" ShortDescConsumer="PE3_8">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>PE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-242" Name="TE3_8" ShortDescProvider="88, R4" ShortDescConsumer="TE3_8">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>TE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-243" Name="FE3_8" ShortDescProvider="92, R4" ShortDescConsumer="FE3_8">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-244" Name="QE3_6" ShortDescProvider="96, R4" ShortDescConsumer="QE3_6">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>QE3_6</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-245" Name="FE3_8_norm" ShortDescProvider="100, R4" ShortDescConsumer="FE3_8_norm">
+        <DataDescProviderSR>
+          <StartAddress>100</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-246" Name="FE3_8_norm_Q" ShortDescProvider="104, R4" ShortDescConsumer="FE3_8_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>104</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum03</TableName>
+          <active>0</active>
+          <DataColumn>FE3_8_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-247" Name="SHKUch-2_CurData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>128</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2002</LocalTSAP>
+        <PartnerTSAP>2002</PartnerTSAP>
+        <PartnerIP>10.27.142.194</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-248" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-249" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-250" Name="PE1_2" ShortDescProvider="8, R4" ShortDescConsumer="PE1_2">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>PE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-251" Name="TE1_2" ShortDescProvider="12, R4" ShortDescConsumer="TE1_2">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>TE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-252" Name="FE1_2" ShortDescProvider="16, R4" ShortDescConsumer="FE1_2">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-253" Name="QE1_2" ShortDescProvider="20, R4" ShortDescConsumer="QE1_2">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>QE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-254" Name="FE1_2_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE1_2_norm">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-255" Name="FE1_2_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE1_2_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-256" Name="PE3_20" ShortDescProvider="32, R4" ShortDescConsumer="PE3_20">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-257" Name="TE3_18" ShortDescProvider="36, R4" ShortDescConsumer="TE3_18">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_18</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-258" Name="FE3_18" ShortDescProvider="40, R4" ShortDescConsumer="FE3_18">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-259" Name="QE3_20" ShortDescProvider="44, R4" ShortDescConsumer="QE3_20">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-260" Name="FE3_18_norm" ShortDescProvider="48, R4" ShortDescConsumer="FE3_18_norm">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-261" Name="FE3_18_norm_Q" ShortDescProvider="52, R4" ShortDescConsumer="FE3_18_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-262" Name="PE3_22" ShortDescProvider="56, R4" ShortDescConsumer="PE3_22">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-263" Name="TE3_20" ShortDescProvider="60, R4" ShortDescConsumer="TE3_20">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-264" Name="FE3_20" ShortDescProvider="64, R4" ShortDescConsumer="FE3_20">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-265" Name="QE3_22" ShortDescProvider="68, R4" ShortDescConsumer="QE3_22">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-266" Name="FE3_20_norm" ShortDescProvider="72, R4" ShortDescConsumer="FE3_20_norm">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-267" Name="FE3_20_norm_Q" ShortDescProvider="76, R4" ShortDescConsumer="FE3_20_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-268" Name="PE3_23" ShortDescProvider="80, R4" ShortDescConsumer="PE3_23">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_23</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-269" Name="TE3_21" ShortDescProvider="84, R4" ShortDescConsumer="TE3_21">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_21</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-270" Name="FE3_21" ShortDescProvider="88, R4" ShortDescConsumer="FE3_21">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-271" Name="QE3_23" ShortDescProvider="92, R4" ShortDescConsumer="QE3_23">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_23</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-272" Name="FE3_21_norm" ShortDescProvider="96, R4" ShortDescConsumer="FE3_21_norm">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-273" Name="FE3_21_norm_Q" ShortDescProvider="100, R4" ShortDescConsumer="FE3_21_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>100</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-274" Name="PE3_24" ShortDescProvider="104, R4" ShortDescConsumer="PE3_24">
+        <DataDescProviderSR>
+          <StartAddress>104</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_24</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-275" Name="TE3_22" ShortDescProvider="108, R4" ShortDescConsumer="TE3_22">
+        <DataDescProviderSR>
+          <StartAddress>108</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-276" Name="FE3_22" ShortDescProvider="112, R4" ShortDescConsumer="FE3_22">
+        <DataDescProviderSR>
+          <StartAddress>112</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-277" Name="QE3_24" ShortDescProvider="116, R4" ShortDescConsumer="QE3_24">
+        <DataDescProviderSR>
+          <StartAddress>116</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_24</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-278" Name="FE3_22_norm" ShortDescProvider="120, R4" ShortDescConsumer="FE3_22_norm">
+        <DataDescProviderSR>
+          <StartAddress>120</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-279" Name="FE3_22_norm_Q" ShortDescProvider="124, R4" ShortDescConsumer="FE3_22_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>124</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-280" Name="SHKUch-2_SumData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>128</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2003</LocalTSAP>
+        <PartnerTSAP>2003</PartnerTSAP>
+        <PartnerIP>10.27.142.194</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-281" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-282" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-283" Name="PE1_2" ShortDescProvider="8, R4" ShortDescConsumer="PE1_2">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>PE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-284" Name="TE1_2" ShortDescProvider="12, R4" ShortDescConsumer="TE1_2">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>TE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-285" Name="FE1_2" ShortDescProvider="16, R4" ShortDescConsumer="FE1_2">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-286" Name="QE1_2" ShortDescProvider="20, R4" ShortDescConsumer="QE1_2">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>QE1_2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-287" Name="FE1_2_norm" ShortDescProvider="24, R4" ShortDescConsumer="FE1_2_norm">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-288" Name="FE1_2_norm_Q" ShortDescProvider="28, R4" ShortDescConsumer="FE1_2_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE1_2_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-289" Name="PE3_20" ShortDescProvider="32, R4" ShortDescConsumer="PE3_20">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-290" Name="TE3_18" ShortDescProvider="36, R4" ShortDescConsumer="TE3_18">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_18</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-291" Name="FE3_18" ShortDescProvider="40, R4" ShortDescConsumer="FE3_18">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-292" Name="QE3_20" ShortDescProvider="44, R4" ShortDescConsumer="QE3_20">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-293" Name="FE3_18_norm" ShortDescProvider="48, R4" ShortDescConsumer="FE3_18_norm">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-294" Name="FE3_18_norm_Q" ShortDescProvider="52, R4" ShortDescConsumer="FE3_18_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_18_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-295" Name="PE3_22" ShortDescProvider="56, R4" ShortDescConsumer="PE3_22">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-296" Name="TE3_20" ShortDescProvider="60, R4" ShortDescConsumer="TE3_20">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-297" Name="FE3_20" ShortDescProvider="64, R4" ShortDescConsumer="FE3_20">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-298" Name="QE3_22" ShortDescProvider="68, R4" ShortDescConsumer="QE3_22">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-299" Name="FE3_20_norm" ShortDescProvider="72, R4" ShortDescConsumer="FE3_20_norm">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-300" Name="FE3_20_norm_Q" ShortDescProvider="76, R4" ShortDescConsumer="FE3_20_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_20_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-301" Name="PE3_23" ShortDescProvider="80, R4" ShortDescConsumer="PE3_23">
+        <DataDescProviderSR>
+          <StartAddress>80</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_23</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-302" Name="TE3_21" ShortDescProvider="84, R4" ShortDescConsumer="TE3_21">
+        <DataDescProviderSR>
+          <StartAddress>84</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_21</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-303" Name="FE3_21" ShortDescProvider="88, R4" ShortDescConsumer="FE3_21">
+        <DataDescProviderSR>
+          <StartAddress>88</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-304" Name="QE3_23" ShortDescProvider="92, R4" ShortDescConsumer="QE3_23">
+        <DataDescProviderSR>
+          <StartAddress>92</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_23</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-305" Name="FE3_21_norm" ShortDescProvider="96, R4" ShortDescConsumer="FE3_21_norm">
+        <DataDescProviderSR>
+          <StartAddress>96</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-306" Name="FE3_21_norm_Q" ShortDescProvider="100, R4" ShortDescConsumer="FE3_21_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>100</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_21_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-307" Name="PE3_24" ShortDescProvider="104, R4" ShortDescConsumer="PE3_24">
+        <DataDescProviderSR>
+          <StartAddress>104</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>PE3_24</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-308" Name="TE3_22" ShortDescProvider="108, R4" ShortDescConsumer="TE3_22">
+        <DataDescProviderSR>
+          <StartAddress>108</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>TE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-309" Name="FE3_22" ShortDescProvider="112, R4" ShortDescConsumer="FE3_22">
+        <DataDescProviderSR>
+          <StartAddress>112</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-310" Name="QE3_24" ShortDescProvider="116, R4" ShortDescConsumer="QE3_24">
+        <DataDescProviderSR>
+          <StartAddress>116</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>QE3_24</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-311" Name="FE3_22_norm" ShortDescProvider="120, R4" ShortDescConsumer="FE3_22_norm">
+        <DataDescProviderSR>
+          <StartAddress>120</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-312" Name="FE3_22_norm_Q" ShortDescProvider="124, R4" ShortDescConsumer="FE3_22_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>124</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum02</TableName>
+          <active>0</active>
+          <DataColumn>FE3_22_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-313" Name="SHKUch-5_CurData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>80</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2008</LocalTSAP>
+        <PartnerTSAP>2008</PartnerTSAP>
+        <PartnerIP>10.27.142.162</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-314" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-315" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-316" Name="QE3_11" ShortDescProvider="8, R4" ShortDescConsumer="QE3_11">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>QE3_11</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-317" Name="PE1_3" ShortDescProvider="12, R4" ShortDescConsumer="PE1_3">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>PE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-318" Name="TE1_3" ShortDescProvider="16, R4" ShortDescConsumer="TE1_3">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>TE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-319" Name="FE1_3" ShortDescProvider="20, R4" ShortDescConsumer="FE1_3">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-320" Name="QE1_3" ShortDescProvider="24, R4" ShortDescConsumer="QE1_3">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>QE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-321" Name="FE1_3_norm" ShortDescProvider="28, R4" ShortDescConsumer="FE1_3_norm">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-322" Name="FE1_3_norm_Q" ShortDescProvider="32, R4" ShortDescConsumer="FE1_3_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-323" Name="PE1_4" ShortDescProvider="36, R4" ShortDescConsumer="PE1_4">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>PE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-324" Name="TE1_4" ShortDescProvider="40, R4" ShortDescConsumer="TE1_4">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>TE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-325" Name="FE1_4" ShortDescProvider="44, R4" ShortDescConsumer="FE1_4">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-326" Name="FE1_4_norm" ShortDescProvider="48, R4" ShortDescConsumer="FE1_4_norm">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-327" Name="FE1_4_norm_Q" ShortDescProvider="52, R4" ShortDescConsumer="FE1_4_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-328" Name="PE3_9" ShortDescProvider="56, R4" ShortDescConsumer="PE3_9">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>PE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-329" Name="TE3_9" ShortDescProvider="60, R4" ShortDescConsumer="TE3_9">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>TE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-330" Name="FE3_9" ShortDescProvider="64, R4" ShortDescConsumer="FE3_9">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-331" Name="QE3_10" ShortDescProvider="68, R4" ShortDescConsumer="QE3_10">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>QE3_10</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-332" Name="FE3_9_norm" ShortDescProvider="72, R4" ShortDescConsumer="FE3_9_norm">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-333" Name="FE3_9_norm_Q" ShortDescProvider="76, R4" ShortDescConsumer="FE3_9_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCur05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <GroupDBConsumerSetting>
+        <MaxEntriesStop>0</MaxEntriesStop>
+        <MaxEntries>0</MaxEntries>
+        <FileSuffix>1</FileSuffix>
+        <UseDedicatedFileName>0</UseDedicatedFileName>
+        <ArchiveFileName>
+        </ArchiveFileName>
+        <ArchivePath>
+        </ArchivePath>
+        <DedicatedFileNameType>
+        </DedicatedFileNameType>
+        <TimeStampColumn>
+        </TimeStampColumn>
+        <TimeStampColumnActive>0</TimeStampColumnActive>
+      </GroupDBConsumerSetting>
+    </Group>
+  </Link>
+  <Link UID="Ref-334" Name="SHKUch-5_SumData">
+    <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
+      <ConfigConsumerDB2>
+        <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
+        <DBType>DB2</DBType>
+        <Description>One data record per call - recordset</Description>
+      </ConfigConsumerDB2>
+    </Consumer>
+    <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
+      <ConfigProviderSR>
+        <DataLength>80</DataLength>
+        <ProtocolType>TCPN</ProtocolType>
+        <LocalTSAP>2009</LocalTSAP>
+        <PartnerTSAP>2009</PartnerTSAP>
+        <PartnerIP>10.27.142.162</PartnerIP>
+        <ConnectionActive>0</ConnectionActive>
+        <MonitoringCycle>0</MonitoringCycle>
+        <MonitoringTime>0</MonitoringTime>
+        <LocalIP>10.21.3.172</LocalIP>
+        <FastConfirmation>
+        </FastConfirmation>
+        <ConnectionName>Connection name:</ConnectionName>
+      </ConfigProviderSR>
+    </Provider>
+    <Group UID="Ref-335" Name="Grp" Description="" ConnectionNameType="NS">
+      <GroupSRSetting>
+        <UpdateTime>1000</UpdateTime>
+        <DataChangeType>0</DataChangeType>
+      </GroupSRSetting>
+      <Connection UID="Ref-336" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+        <DataDescProviderSR>
+          <StartAddress>0</StartAddress>
+          <DataType>7</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>dt</DataColumn>
+          <DataType>7</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-337" Name="QE3_11" ShortDescProvider="8, R4" ShortDescConsumer="QE3_11">
+        <DataDescProviderSR>
+          <StartAddress>8</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>QE3_11</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-338" Name="PE1_3" ShortDescProvider="12, R4" ShortDescConsumer="PE1_3">
+        <DataDescProviderSR>
+          <StartAddress>12</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>PE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-339" Name="TE1_3" ShortDescProvider="16, R4" ShortDescConsumer="TE1_3">
+        <DataDescProviderSR>
+          <StartAddress>16</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>TE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-340" Name="FE1_3" ShortDescProvider="20, R4" ShortDescConsumer="FE1_3">
+        <DataDescProviderSR>
+          <StartAddress>20</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-341" Name="QE1_3" ShortDescProvider="24, R4" ShortDescConsumer="QE1_3">
+        <DataDescProviderSR>
+          <StartAddress>24</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>QE1_3</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-342" Name="FE1_3_norm" ShortDescProvider="28, R4" ShortDescConsumer="FE1_3_norm">
+        <DataDescProviderSR>
+          <StartAddress>28</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-343" Name="FE1_3_norm_Q" ShortDescProvider="32, R4" ShortDescConsumer="FE1_3_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>32</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_3_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-344" Name="PE1_4" ShortDescProvider="36, R4" ShortDescConsumer="PE1_4">
+        <DataDescProviderSR>
+          <StartAddress>36</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>PE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-345" Name="TE1_4" ShortDescProvider="40, R4" ShortDescConsumer="TE1_4">
+        <DataDescProviderSR>
+          <StartAddress>40</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>TE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-346" Name="FE1_4" ShortDescProvider="44, R4" ShortDescConsumer="FE1_4">
+        <DataDescProviderSR>
+          <StartAddress>44</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-347" Name="FE1_4_norm" ShortDescProvider="48, R4" ShortDescConsumer="FE1_4_norm">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-348" Name="FE1_4_norm_Q" ShortDescProvider="52, R4" ShortDescConsumer="FE1_4_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE1_4_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-349" Name="PE3_9" ShortDescProvider="56, R4" ShortDescConsumer="PE3_9">
+        <DataDescProviderSR>
+          <StartAddress>56</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>PE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-350" Name="TE3_9" ShortDescProvider="60, R4" ShortDescConsumer="TE3_9">
+        <DataDescProviderSR>
+          <StartAddress>60</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>TE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-351" Name="FE3_9" ShortDescProvider="64, R4" ShortDescConsumer="FE3_9">
+        <DataDescProviderSR>
+          <StartAddress>64</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-352" Name="QE3_10" ShortDescProvider="68, R4" ShortDescConsumer="QE3_10">
+        <DataDescProviderSR>
+          <StartAddress>68</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>QE3_10</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-353" Name="FE3_9_norm" ShortDescProvider="72, R4" ShortDescConsumer="FE3_9_norm">
+        <DataDescProviderSR>
+          <StartAddress>72</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9_norm</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-354" Name="FE3_9_norm_Q" ShortDescProvider="76, R4" ShortDescConsumer="FE3_9_norm_Q">
+        <DataDescProviderSR>
+          <StartAddress>76</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSum05</TableName>
+          <active>0</active>
+          <DataColumn>FE3_9_norm_Q</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
