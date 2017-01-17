@@ -11618,7 +11618,7 @@ GROUP BY
                                   <Value>=Fields!AKAR2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11653,7 +11653,7 @@ GROUP BY
                                   <Value>=Fields!AKAR2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11756,7 +11756,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_6_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11770,26 +11770,6 @@ GROUP BY
                             <Border>
                               <Style>Solid</Style>
                             </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -11811,7 +11791,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_6.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11825,26 +11805,6 @@ GROUP BY
                             <Border>
                               <Style>Solid</Style>
                             </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -11866,7 +11826,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_7_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11901,7 +11861,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_7.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11936,7 +11896,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_8_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -11971,7 +11931,7 @@ GROUP BY
                                   <Value>=Fields!KAR30_8.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12006,7 +11966,7 @@ GROUP BY
                                   <Value>=Fields!AKAR2.Value+Fields!KAR30_6.Value+Fields!KAR30_7.Value+Fields!KAR30_8.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12095,7 +12055,7 @@ GROUP BY
                                   <Value>=Fields!plug1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12238,7 +12198,7 @@ GROUP BY
                                   <Value>=Fields!AKAR2.Value + Fields!KAR30_6.Value + Fields!KAR30_7.Value + Fields!KAR30_8.Value-Fields!plug1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12273,6 +12233,7 @@ GROUP BY
                                   <Value />
                                   <Style>
                                     <FontSize>12pt</FontSize>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12286,26 +12247,6 @@ GROUP BY
                             <Border>
                               <Style>Solid</Style>
                             </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -12327,7 +12268,7 @@ GROUP BY
                                   <Value>=Fields!comprKKC1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12362,7 +12303,7 @@ GROUP BY
                                   <Value>=Fields!comprKKC1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12397,7 +12338,7 @@ GROUP BY
                                   <Value>=Fields!comprKKC2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12432,7 +12373,7 @@ GROUP BY
                                   <Value>=Fields!comprKKC2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12467,7 +12408,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12502,7 +12443,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12537,7 +12478,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12572,7 +12513,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12607,7 +12548,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP3_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12642,7 +12583,7 @@ GROUP BY
                                   <Value>=Fields!comprTEP3.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12677,7 +12618,7 @@ GROUP BY
                                   <Value>=Fields!comprLindeGas1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12712,7 +12653,7 @@ GROUP BY
                                   <Value>=Fields!comprLindeGas1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12747,7 +12688,7 @@ GROUP BY
                                   <Value>=Fields!comprLindeGas2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12782,7 +12723,7 @@ GROUP BY
                                   <Value>=Fields!comprLindeGas2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12817,7 +12758,7 @@ GROUP BY
                                   <Value>=Fields!LindeGasTEP12_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12852,7 +12793,7 @@ GROUP BY
                                   <Value>=Fields!LindeGasTEP12.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12887,7 +12828,7 @@ GROUP BY
                                   <Value>=Fields!TEP1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12922,7 +12863,7 @@ GROUP BY
                                   <Value>=Fields!TEP1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12957,7 +12898,7 @@ GROUP BY
                                   <Value>=Fields!TEP1_TVD2a.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -12992,7 +12933,7 @@ GROUP BY
                                   <Value>=Fields!TEP1_TVD5a.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13027,7 +12968,7 @@ GROUP BY
                                   <Value>=Fields!TEP1_TVD8bis_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13062,7 +13003,7 @@ GROUP BY
                                   <Value>=Fields!TEP1_TVD8bis.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13097,7 +13038,7 @@ GROUP BY
                                   <Value>=Fields!TEP2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13132,7 +13073,7 @@ GROUP BY
                                   <Value>=Fields!TEP2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13167,7 +13108,7 @@ GROUP BY
                                   <Value>=Fields!TEP2_TVD9.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13202,7 +13143,7 @@ GROUP BY
                                   <Value>=Fields!TEP2_TVD10.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13237,7 +13178,7 @@ GROUP BY
                                   <Value>=Fields!TEP2_TVD11.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13272,7 +13213,7 @@ GROUP BY
                                   <Value>=Fields!TEP3_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13307,7 +13248,7 @@ GROUP BY
                                   <Value>=Fields!TEP3.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13342,7 +13283,7 @@ GROUP BY
                                   <Value>=Fields!LindeGas1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13377,7 +13318,7 @@ GROUP BY
                                   <Value>=Fields!LindeGas1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13412,7 +13353,7 @@ GROUP BY
                                   <Value>=Fields!LindeGas2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13447,7 +13388,7 @@ GROUP BY
                                   <Value>=Fields!LindeGas2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13482,7 +13423,7 @@ GROUP BY
                                   <Value>=Fields!KKC1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13517,7 +13458,7 @@ GROUP BY
                                   <Value>=Fields!KKC1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13552,7 +13493,7 @@ GROUP BY
                                   <Value>=Fields!KKC2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13587,7 +13528,7 @@ GROUP BY
                                   <Value>=Fields!KKC2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -13730,7 +13671,7 @@ GROUP BY
                                   <Value>=Fields!autogen.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
