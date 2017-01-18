@@ -453,7 +453,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -761,7 +761,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -974,7 +974,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1187,7 +1187,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1983,7 +1983,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>0.91952in</Top>
-            <Left>9.13795in</Left>
+            <Left>9.20045in</Left>
             <Height>0.25in</Height>
             <Width>0.59028in</Width>
             <ZIndex>60</ZIndex>
@@ -2101,7 +2101,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2676,7 +2676,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>0.93342in</Top>
-            <Left>14.06848in</Left>
+            <Left>14.13098in</Left>
             <Height>0.25in</Height>
             <Width>0.59028in</Width>
             <ZIndex>86</ZIndex>
@@ -2813,7 +2813,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2996,7 +2996,7 @@ GROUP BY
           <Line Name="Line41">
             <Top>4.44887in</Top>
             <Left>2.07208in</Left>
-            <Height>0.21332in</Height>
+            <Height>0.21545in</Height>
             <Width>0in</Width>
             <ZIndex>99</ZIndex>
             <Style>
@@ -3121,7 +3121,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3334,7 +3334,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3547,7 +3547,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4248,7 +4248,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>0.91739in</Top>
-            <Left>2.93664in</Left>
+            <Left>2.99914in</Left>
             <Height>0.25in</Height>
             <Width>0.59028in</Width>
             <ZIndex>145</ZIndex>
@@ -4899,7 +4899,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>КПа</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
