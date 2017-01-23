@@ -2,13 +2,13 @@ SELECT TOP 1
 	t.dt,
 	--CRV
 	--FE3.10_normQ
-	FE310_normQ.Value as FE310_normQ, PE310.Value as PE310, TE310.Value as TE310, QE310.Value as QE312,
+	FE310_normQ.Value as FE310_normQ, PE310.Value as PE310, TE310.Value as TE310, QE312.Value as QE312,
 	--FE3.10_normQ
-	FE311_normQ.Value as FE311_normQ, PE311.Value as PE311, TE311.Value as TE311, QE311.Value as QE313,
+	FE311_normQ.Value as FE311_normQ, PE311.Value as PE311, TE311.Value as TE311, QE313.Value as QE313,
 	--FE3.11_normQ
-	FE312_normQ.Value as FE312_normQ, PE312.Value as PE312, TE312.Value as TE312, QE312.Value as QE314,
+	FE312_normQ.Value as FE312_normQ, PE312.Value as PE312, TE312.Value as TE312, QE314.Value as QE314,
 	--FE3.12_normQ
-	FE313_normQ.Value as FE313_normQ, PE313.Value as PE313, TE313.Value as TE313, QE313.Value as QE315,
+	FE313_normQ.Value as FE313_normQ, PE313.Value as PE313, TE313.Value as TE313, QE315.Value as QE315,
 	--FE3.24_normQ
 	--FE324_normQ.Value as FE324_normQ, PE326.Value as PE326, TE324.Value as TE324,
 	--FE3.25_normQ
