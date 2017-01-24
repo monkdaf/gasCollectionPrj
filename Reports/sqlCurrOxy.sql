@@ -74,19 +74,23 @@ SELECT TOP 1
 	--FE3.22_norm
 	FE322_norm.Value as FE322_norm, PE324.Value as PE324, TE322.Value as TE322, QE324.Value as QE324,
 	--FE3.23_norm
-	FE323_norm.Value as FE323_norm, PE325.Value as PE325, TE323.Value as TE323
+	FE323_norm.Value as FE323_norm, PE325.Value as PE325, TE323.Value as TE323,
+	--FE3.26_norm
+	FE326_norm.Value as FE326_norm, PE328.Value as PE328, TE326.Value as TE326,
+	--FE3.27_norm
+	FE327_norm.Value as FE327_norm, PE329.Value as PE329, TE327.Value as TE327
 
 FROM [dbo].[CurData] t
-  LEFT JOIN [dbo].[CurData] PE35 ON PE35.ID = 37
+	LEFT JOIN [dbo].[CurData] PE35 ON PE35.ID = 37
 	LEFT JOIN [dbo].[CurData] TE35 ON TE35.ID = 38
 	LEFT JOIN [dbo].[CurData] QE35 ON QE35.ID = 39
 	LEFT JOIN [dbo].[CurData] FE35_norm ON FE35_norm.ID = 41
 
-  LEFT JOIN [dbo].[CurData] PE36 ON PE36.ID = 43
+	LEFT JOIN [dbo].[CurData] PE36 ON PE36.ID = 43
 	LEFT JOIN [dbo].[CurData] TE36 ON TE36.ID = 44
 	LEFT JOIN [dbo].[CurData] FE36_norm ON FE36_norm.ID = 46
 
-  LEFT JOIN [dbo].[CurData] PE37 ON PE37.ID = 48
+	LEFT JOIN [dbo].[CurData] PE37 ON PE37.ID = 48
 	LEFT JOIN [dbo].[CurData] TE37 ON TE37.ID = 49
 	LEFT JOIN [dbo].[CurData] FE37_norm ON FE37_norm.ID = 51
 
@@ -102,10 +106,10 @@ FROM [dbo].[CurData] t
 	LEFT JOIN [dbo].[CurData] PE31 ON PE31.ID = 62
 	LEFT JOIN [dbo].[CurData] TE31 ON TE31.ID = 63
 	LEFT JOIN [dbo].[CurData] QE31 ON QE31.ID = 64
-  LEFT JOIN [dbo].[CurData] FE31_norm ON FE31_norm.ID = 66
+	LEFT JOIN [dbo].[CurData] FE31_norm ON FE31_norm.ID = 66
 
 	LEFT JOIN [dbo].[CurData] PE32 ON PE32.ID = 68
-  LEFT JOIN [dbo].[CurData] TE32 ON TE32.ID = 69
+	LEFT JOIN [dbo].[CurData] TE32 ON TE32.ID = 69
 	LEFT JOIN [dbo].[CurData] FE32_norm ON FE32_norm.ID = 71
 
 	LEFT JOIN [dbo].[CurData] PE33 ON PE33.ID = 73
@@ -113,14 +117,14 @@ FROM [dbo].[CurData] t
 	LEFT JOIN [dbo].[CurData] FE33_norm ON FE33_norm.ID = 76
 
 	LEFT JOIN [dbo].[CurData] PE34 ON PE34.ID = 78
-  LEFT JOIN [dbo].[CurData] TE34 ON TE34.ID = 79
+	LEFT JOIN [dbo].[CurData] TE34 ON TE34.ID = 79
 	LEFT JOIN [dbo].[CurData] FE34_norm ON FE34_norm.ID = 81
 
 	LEFT JOIN [dbo].[CurData] QE32 ON QE32.ID = 83
-  LEFT JOIN [dbo].[CurData] QE33 ON QE33.ID = 84
+	LEFT JOIN [dbo].[CurData] QE33 ON QE33.ID = 84
 	LEFT JOIN [dbo].[CurData] QE34 ON QE34.ID = 85
 
-  LEFT JOIN [dbo].[CurData] PE39 ON PE39.ID = 97
+	LEFT JOIN [dbo].[CurData] PE39 ON PE39.ID = 97
 	LEFT JOIN [dbo].[CurData] TE39 ON TE39.ID = 98
 	LEFT JOIN [dbo].[CurData] QE310 ON QE310.ID = 100
 	LEFT JOIN [dbo].[CurData] FE39_norm ON FE39_norm.ID = 101
@@ -129,14 +133,14 @@ FROM [dbo].[CurData] t
 	LEFT JOIN [dbo].[CurData] PE_7103_04A_P06 ON PE_7103_04A_P06.ID = 177
 	LEFT JOIN [dbo].[CurData] TE_7103_04A_T01 ON TE_7103_04A_T01.ID = 178
 	LEFT JOIN [dbo].[CurData] QE_7101_10_A66 ON QE_7101_10_A66.ID = 180
-  LEFT JOIN [dbo].[CurData] FE_7103_04A_F02_norm ON FE_7103_04A_F02_norm.ID = 181
+	LEFT JOIN [dbo].[CurData] FE_7103_04A_F02_norm ON FE_7103_04A_F02_norm.ID = 181
 
 	LEFT JOIN [dbo].[CurData] PE_7103_04B_P06 ON PE_7103_04B_P06.ID = 183
 	LEFT JOIN [dbo].[CurData] TE_7103_04B_T01 ON TE_7103_04B_T01.ID = 184
-  LEFT JOIN [dbo].[CurData] FE_7103_04B_F02_norm ON FE_7103_04B_F02_norm.ID = 186
+	LEFT JOIN [dbo].[CurData] FE_7103_04B_F02_norm ON FE_7103_04B_F02_norm.ID = 186
 
 	LEFT JOIN [dbo].[CurData] PE_7105_04_P06 ON PE_7105_04_P06.ID = 188
-  LEFT JOIN [dbo].[CurData] TE_7105_04_T01 ON TE_7105_04_T01.ID = 189
+	LEFT JOIN [dbo].[CurData] TE_7105_04_T01 ON TE_7105_04_T01.ID = 189
 	LEFT JOIN [dbo].[CurData] FE_7105_04_F02_norm ON FE_7105_04_F02_norm.ID = 191
 
 	LEFT JOIN [dbo].[CurData] PE310 ON PE310.ID = 153
@@ -144,14 +148,14 @@ FROM [dbo].[CurData] t
 	LEFT JOIN [dbo].[CurData] QE312 ON QE312.ID = 156
 	LEFT JOIN [dbo].[CurData] FE310_norm ON FE310_norm.ID = 157
 
-  LEFT JOIN [dbo].[CurData] PE311 ON PE311.ID = 159
+	LEFT JOIN [dbo].[CurData] PE311 ON PE311.ID = 159
 	LEFT JOIN [dbo].[CurData] TE311 ON TE311.ID = 160
 	LEFT JOIN [dbo].[CurData] QE313 ON QE313.ID = 162
 	LEFT JOIN [dbo].[CurData] FE311_norm ON FE311_norm.ID = 163
 
 	LEFT JOIN [dbo].[CurData] PE312 ON PE312.ID = 165
 	LEFT JOIN [dbo].[CurData] TE312 ON TE312.ID = 166
-  LEFT JOIN [dbo].[CurData] QE314 ON QE314.ID = 168
+	LEFT JOIN [dbo].[CurData] QE314 ON QE314.ID = 168
 	LEFT JOIN [dbo].[CurData] FE312_norm ON FE312_norm.ID = 169
 
 	LEFT JOIN [dbo].[CurData] PE313 ON PE313.ID = 171
@@ -219,6 +223,14 @@ FROM [dbo].[CurData] t
 	LEFT JOIN [dbo].[CurData] TE323 ON TE323.ID = 135
 	LEFT JOIN [dbo].[CurData] FE323_norm ON FE323_norm.ID = 138
 
+	LEFT JOIN [dbo].[CurData] PE328 ON PE328.ID = 199
+	LEFT JOIN [dbo].[CurData] TE326 ON TE326.ID = 200
+	LEFT JOIN [dbo].[CurData] FE326_norm ON FE326_norm.ID = 202
+
+	LEFT JOIN [dbo].[CurData] PE329 ON PE329.ID = 204
+	LEFT JOIN [dbo].[CurData] TE327 ON TE327.ID = 205
+	LEFT JOIN [dbo].[CurData] FE327_norm ON FE327_norm.ID = 207
+
 GROUP BY
 	t.dt,
 	FE35_norm.Value, PE35.Value, TE35.Value, QE35.Value,
@@ -252,4 +264,6 @@ GROUP BY
 	FE320_norm.Value, PE322.Value, TE320.Value, QE322.Value,
 	FE321_norm.Value, PE323.Value, TE321.Value, QE323.Value,
 	FE322_norm.Value, PE324.Value, TE322.Value, QE324.Value,
-	FE323_norm.Value, PE325.Value, TE323.Value
+	FE323_norm.Value, PE325.Value, TE323.Value,
+	FE326_norm.Value, PE328.Value, TE326.Value,
+	FE327_norm.Value, PE329.Value, TE327.Value
