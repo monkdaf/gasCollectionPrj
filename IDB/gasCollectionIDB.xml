@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Bridges UID="Ref-1" version="7.3" LastChange="1/22/2017 9:31:07 PM">
+<Bridges UID="Ref-1" version="7.3" LastChange="1/26/2017 12:56:04 PM">
   <Link UID="Ref-2" Name="SHKUch-7_CurData">
     <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
       <ConfigConsumerDB2>
@@ -9138,7 +9138,7 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>48</DataLength>
+        <DataLength>56</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2022</LocalTSAP>
         <PartnerTSAP>2022</PartnerTSAP>
@@ -9355,6 +9355,42 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
+      <Connection UID="Ref-514" Name="PE5a2" ShortDescProvider="48, R4" ShortDescConsumer="PE5a2">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCurOlvia</TableName>
+          <active>0</active>
+          <DataColumn>PE5a2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-515" Name="PE6a2" ShortDescProvider="52, R4" ShortDescConsumer="PE6a2">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcCurOlvia</TableName>
+          <active>0</active>
+          <DataColumn>PE6a2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
       <GroupDBConsumerSetting>
         <MaxEntriesStop>0</MaxEntriesStop>
         <MaxEntries>0</MaxEntries>
@@ -9372,7 +9408,7 @@
       </GroupDBConsumerSetting>
     </Group>
   </Link>
-  <Link UID="Ref-514" Name="Olvia_SumData">
+  <Link UID="Ref-516" Name="Olvia_SumData">
     <Consumer ProgID="SITBCDB2.IDBConsumer" Name="ConfigDBC" Type="MSSQL">
       <ConfigConsumerDB2>
         <ProviderDBString>YtDNy9ta/UOEGSmvj3i4+BXe8vmY786A3SaWgOlsn73K1pnX2JkY5zcTjE+NF3i8GRN7vZhR+Pfcx0q8N9tJ3KoHNXuq3R+gtpF1xTAtPB3eCg6Zfb2zAtpEC3S4O28pFgU2ACFJjs+XHPwr1RjYj0LS/Wop06HxybrRyKUwi+K5i9Ajtw4HZ9DZPw8OmrOg+K6NFgefRHDL2+fKoVXtozrtMs9X+AOIA297U5Cg5EkcBrV1OplpIRWq4yn1G7qS+0AknTC/ly5Zkyap9278xYzURoM0/4pjVr16c/zZEttINz/7rFe2LbznATIeA8R1QkTxVlW0BWSiTC4achpFDwYj6z/QiT0jtd4X1rRyi6Z0XjnEoBjYZa1MYP0Szoz0</ProviderDBString>
@@ -9382,7 +9418,7 @@
     </Consumer>
     <Provider ProgID="SITBPSR.IDBProvider" Name="ConfigSRP">
       <ConfigProviderSR>
-        <DataLength>48</DataLength>
+        <DataLength>56</DataLength>
         <ProtocolType>TCPN</ProtocolType>
         <LocalTSAP>2023</LocalTSAP>
         <PartnerTSAP>2023</PartnerTSAP>
@@ -9396,12 +9432,12 @@
         <ConnectionName>Connection name:</ConnectionName>
       </ConfigProviderSR>
     </Provider>
-    <Group UID="Ref-515" Name="Grp" Description="" ConnectionNameType="NS">
+    <Group UID="Ref-517" Name="Grp" Description="" ConnectionNameType="NS">
       <GroupSRSetting>
         <UpdateTime>1000</UpdateTime>
         <DataChangeType>0</DataChangeType>
       </GroupSRSetting>
-      <Connection UID="Ref-516" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
+      <Connection UID="Ref-518" Name="dt" ShortDescProvider="0, DATE" ShortDescConsumer="dt">
         <DataDescProviderSR>
           <StartAddress>0</StartAddress>
           <DataType>7</DataType>
@@ -9419,7 +9455,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-517" Name="PE4a2" ShortDescProvider="8, R4" ShortDescConsumer="PE4a2">
+      <Connection UID="Ref-519" Name="PE4a2" ShortDescProvider="8, R4" ShortDescConsumer="PE4a2">
         <DataDescProviderSR>
           <StartAddress>8</StartAddress>
           <DataType>4</DataType>
@@ -9437,7 +9473,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-518" Name="PE4a2_1" ShortDescProvider="8, R4" ShortDescConsumer="PE4a2">
+      <Connection UID="Ref-520" Name="PE4a2_1" ShortDescProvider="8, R4" ShortDescConsumer="PE4a2">
         <DataDescProviderSR>
           <StartAddress>8</StartAddress>
           <DataType>4</DataType>
@@ -9455,7 +9491,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-519" Name="TE1a2" ShortDescProvider="12, R4" ShortDescConsumer="TE1a2">
+      <Connection UID="Ref-521" Name="TE1a2" ShortDescProvider="12, R4" ShortDescConsumer="TE1a2">
         <DataDescProviderSR>
           <StartAddress>12</StartAddress>
           <DataType>4</DataType>
@@ -9473,7 +9509,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-520" Name="QE1a2" ShortDescProvider="16, R4" ShortDescConsumer="QE1a2">
+      <Connection UID="Ref-522" Name="QE1a2" ShortDescProvider="16, R4" ShortDescConsumer="QE1a2">
         <DataDescProviderSR>
           <StartAddress>16</StartAddress>
           <DataType>4</DataType>
@@ -9491,7 +9527,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-521" Name="FE1a2_norm" ShortDescProvider="20, R4" ShortDescConsumer="FE1a2_norm">
+      <Connection UID="Ref-523" Name="FE1a2_norm" ShortDescProvider="20, R4" ShortDescConsumer="FE1a2_norm">
         <DataDescProviderSR>
           <StartAddress>20</StartAddress>
           <DataType>4</DataType>
@@ -9509,7 +9545,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-522" Name="FE1a2_norm_Q" ShortDescProvider="24, R4" ShortDescConsumer="FE1a2_norm_Q">
+      <Connection UID="Ref-524" Name="FE1a2_norm_Q" ShortDescProvider="24, R4" ShortDescConsumer="FE1a2_norm_Q">
         <DataDescProviderSR>
           <StartAddress>24</StartAddress>
           <DataType>4</DataType>
@@ -9527,7 +9563,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-523" Name="FE1a2_norm_Q_1" ShortDescProvider="24, R4" ShortDescConsumer="FE1a2_norm_Q">
+      <Connection UID="Ref-525" Name="FE1a2_norm_Q_1" ShortDescProvider="24, R4" ShortDescConsumer="FE1a2_norm_Q">
         <DataDescProviderSR>
           <StartAddress>24</StartAddress>
           <DataType>4</DataType>
@@ -9545,7 +9581,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-524" Name="PE4a1" ShortDescProvider="28, R4" ShortDescConsumer="PE4a1">
+      <Connection UID="Ref-526" Name="PE4a1" ShortDescProvider="28, R4" ShortDescConsumer="PE4a1">
         <DataDescProviderSR>
           <StartAddress>28</StartAddress>
           <DataType>4</DataType>
@@ -9563,7 +9599,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-525" Name="TE1a1" ShortDescProvider="32, R4" ShortDescConsumer="TE1a1">
+      <Connection UID="Ref-527" Name="TE1a1" ShortDescProvider="32, R4" ShortDescConsumer="TE1a1">
         <DataDescProviderSR>
           <StartAddress>32</StartAddress>
           <DataType>4</DataType>
@@ -9581,7 +9617,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-526" Name="QE1a1" ShortDescProvider="36, R4" ShortDescConsumer="QE1a1">
+      <Connection UID="Ref-528" Name="QE1a1" ShortDescProvider="36, R4" ShortDescConsumer="QE1a1">
         <DataDescProviderSR>
           <StartAddress>36</StartAddress>
           <DataType>4</DataType>
@@ -9599,7 +9635,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-527" Name="FE1a1_norm" ShortDescProvider="40, R4" ShortDescConsumer="FE1a1_norm">
+      <Connection UID="Ref-529" Name="FE1a1_norm" ShortDescProvider="40, R4" ShortDescConsumer="FE1a1_norm">
         <DataDescProviderSR>
           <StartAddress>40</StartAddress>
           <DataType>4</DataType>
@@ -9617,7 +9653,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-528" Name="FE1a1_norm_1" ShortDescProvider="40, R4" ShortDescConsumer="FE1a1_norm">
+      <Connection UID="Ref-530" Name="FE1a1_norm_1" ShortDescProvider="40, R4" ShortDescConsumer="FE1a1_norm">
         <DataDescProviderSR>
           <StartAddress>40</StartAddress>
           <DataType>4</DataType>
@@ -9635,7 +9671,7 @@
           <Schema>dbo</Schema>
         </DataDescConsumerDB2>
       </Connection>
-      <Connection UID="Ref-529" Name="FE1a1_norm_Q" ShortDescProvider="44, R4" ShortDescConsumer="FE1a1_norm_Q">
+      <Connection UID="Ref-531" Name="FE1a1_norm_Q" ShortDescProvider="44, R4" ShortDescConsumer="FE1a1_norm_Q">
         <DataDescProviderSR>
           <StartAddress>44</StartAddress>
           <DataType>4</DataType>
@@ -9647,6 +9683,42 @@
           <TableName>PlcSumOlvia</TableName>
           <active>0</active>
           <DataColumn>FE1a1_norm_Q</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-532" Name="PE5a2" ShortDescProvider="48, R4" ShortDescConsumer="PE5a2">
+        <DataDescProviderSR>
+          <StartAddress>48</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSumOlvia</TableName>
+          <active>0</active>
+          <DataColumn>PE5a2</DataColumn>
+          <DataType>4</DataType>
+          <TimeStampColumn>
+          </TimeStampColumn>
+          <Schema>dbo</Schema>
+        </DataDescConsumerDB2>
+      </Connection>
+      <Connection UID="Ref-533" Name="PE6a2" ShortDescProvider="52, R4" ShortDescConsumer="PE6a2">
+        <DataDescProviderSR>
+          <StartAddress>52</StartAddress>
+          <DataType>4</DataType>
+          <ParameterCount>
+          </ParameterCount>
+          <Compatibility>0</Compatibility>
+        </DataDescProviderSR>
+        <DataDescConsumerDB2 TagFileNameConn="0">
+          <TableName>PlcSumOlvia</TableName>
+          <active>0</active>
+          <DataColumn>PE6a2</DataColumn>
           <DataType>4</DataType>
           <TimeStampColumn>
           </TimeStampColumn>
