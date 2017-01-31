@@ -226,8 +226,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.28405in</Top>
-            <Left>1.26701in</Left>
+            <Top>2.65905in</Top>
+            <Left>2.01701in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>2</ZIndex>
@@ -259,8 +259,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.28405in</Top>
-            <Left>1.97883in</Left>
+            <Top>2.65905in</Top>
+            <Left>2.72883in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>3</ZIndex>
@@ -297,8 +297,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.53405in</Top>
-            <Left>1.26701in</Left>
+            <Top>2.90905in</Top>
+            <Left>2.01701in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>4</ZIndex>
@@ -330,8 +330,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.53405in</Top>
-            <Left>1.97884in</Left>
+            <Top>2.90905in</Top>
+            <Left>2.72884in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>5</ZIndex>
@@ -368,8 +368,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.78405in</Top>
-            <Left>1.26701in</Left>
+            <Top>3.15905in</Top>
+            <Left>2.01701in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>6</ZIndex>
@@ -401,8 +401,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.78405in</Top>
-            <Left>1.97883in</Left>
+            <Top>3.15905in</Top>
+            <Left>2.72883in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>7</ZIndex>
@@ -439,8 +439,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.03405in</Top>
-            <Left>1.26702in</Left>
+            <Top>3.40905in</Top>
+            <Left>2.01702in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>8</ZIndex>
@@ -472,8 +472,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>3.03405in</Top>
-            <Left>1.97884in</Left>
+            <Top>3.40905in</Top>
+            <Left>2.72884in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>9</ZIndex>
@@ -510,8 +510,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.60759in</Top>
-            <Left>6.12329in</Left>
+            <Top>6.21176in</Top>
+            <Left>5.37329in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>10</ZIndex>
@@ -543,8 +543,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.60759in</Top>
-            <Left>6.83678in</Left>
+            <Top>6.21176in</Top>
+            <Left>6.08678in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>11</ZIndex>
@@ -581,8 +581,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.85759in</Top>
-            <Left>6.12329in</Left>
+            <Top>6.46176in</Top>
+            <Left>5.37329in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>12</ZIndex>
@@ -614,8 +614,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.85759in</Top>
-            <Left>6.83679in</Left>
+            <Top>6.46176in</Top>
+            <Left>6.08679in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>13</ZIndex>
@@ -652,8 +652,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.10759in</Top>
-            <Left>6.1233in</Left>
+            <Top>6.71176in</Top>
+            <Left>5.3733in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>14</ZIndex>
@@ -685,8 +685,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>3.10759in</Top>
-            <Left>6.83679in</Left>
+            <Top>6.71176in</Top>
+            <Left>6.08679in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>15</ZIndex>
@@ -723,8 +723,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.58502in</Top>
-            <Left>6.12331in</Left>
+            <Top>7.18919in</Top>
+            <Left>5.37331in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>16</ZIndex>
@@ -756,8 +756,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>3.58502in</Top>
-            <Left>6.83679in</Left>
+            <Top>7.18919in</Top>
+            <Left>6.08679in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>17</ZIndex>
@@ -794,8 +794,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>3.83502in</Top>
-            <Left>6.12331in</Left>
+            <Top>7.43919in</Top>
+            <Left>5.37331in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>18</ZIndex>
@@ -827,8 +827,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>3.83502in</Top>
-            <Left>6.83681in</Left>
+            <Top>7.43919in</Top>
+            <Left>6.08681in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>19</ZIndex>
@@ -865,8 +865,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>4.08502in</Top>
-            <Left>6.12332in</Left>
+            <Top>7.68919in</Top>
+            <Left>5.37332in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>20</ZIndex>
@@ -898,8 +898,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>4.08502in</Top>
-            <Left>6.83681in</Left>
+            <Top>7.68919in</Top>
+            <Left>6.08681in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>21</ZIndex>
@@ -936,8 +936,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.02498in</Top>
-            <Left>1.26915in</Left>
+            <Top>1.39998in</Top>
+            <Left>2.01915in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>22</ZIndex>
@@ -969,8 +969,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.02498in</Top>
-            <Left>1.98264in</Left>
+            <Top>1.39998in</Top>
+            <Left>2.73264in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>23</ZIndex>
@@ -1007,8 +1007,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.27498in</Top>
-            <Left>1.26915in</Left>
+            <Top>1.64998in</Top>
+            <Left>2.01915in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>24</ZIndex>
@@ -1040,8 +1040,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.27498in</Top>
-            <Left>1.98265in</Left>
+            <Top>1.64998in</Top>
+            <Left>2.73265in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>25</ZIndex>
@@ -1078,8 +1078,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.52498in</Top>
-            <Left>1.26915in</Left>
+            <Top>1.89998in</Top>
+            <Left>2.01915in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>26</ZIndex>
@@ -1111,8 +1111,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.52498in</Top>
-            <Left>1.98264in</Left>
+            <Top>1.89998in</Top>
+            <Left>2.73264in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>27</ZIndex>
@@ -1149,8 +1149,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.77498in</Top>
-            <Left>1.26916in</Left>
+            <Top>2.14998in</Top>
+            <Left>2.01916in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>28</ZIndex>
@@ -1182,8 +1182,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.77498in</Top>
-            <Left>1.98265in</Left>
+            <Top>2.14998in</Top>
+            <Left>2.73265in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>29</ZIndex>
@@ -1220,8 +1220,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>2.91446in</Top>
-            <Left>7.4513in</Left>
+            <Top>6.51863in</Top>
+            <Left>6.7013in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>30</ZIndex>
@@ -1253,8 +1253,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.92009in</Top>
-            <Left>8.1513in</Left>
+            <Top>6.52426in</Top>
+            <Left>7.4013in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>31</ZIndex>
@@ -1288,8 +1288,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>3.27498in</Top>
-            <Left>8.90615in</Left>
+            <Top>6.87915in</Top>
+            <Left>8.15615in</Left>
             <Height>0.5in</Height>
             <Width>0.55209in</Width>
             <ZIndex>32</ZIndex>
@@ -1311,7 +1311,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Цех компрессии №1</Value>
+                    <Value>Цех компрессии №2</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1323,8 +1323,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>3.24373in</Top>
-            <Left>4.30556in</Left>
+            <Top>4.81665in</Top>
+            <Left>4.75384in</Left>
             <Height>0.53125in</Height>
             <Width>0.87153in</Width>
             <ZIndex>33</ZIndex>
@@ -1346,7 +1346,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>В контору газового цеха</Value>
+                    <Value>АРП ДП-8</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1359,9 +1359,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>1.02498in</Top>
-            <Left>2.47917in</Left>
+            <Left>4.75384in</Left>
             <Height>0.53125in</Height>
-            <Width>0.74653in</Width>
+            <Width>0.87153in</Width>
             <ZIndex>34</ZIndex>
             <Style>
               <Border>
@@ -1375,8 +1375,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Textbox>
           <Line Name="Line22">
-            <Top>2.53815in</Top>
-            <Left>6.64413in</Left>
+            <Top>6.14232in</Top>
+            <Left>5.89413in</Left>
             <Height>0in</Height>
             <Width>1.95717in</Width>
             <ZIndex>35</ZIndex>
@@ -1387,8 +1387,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line13">
-            <Top>2.5477in</Top>
-            <Left>6.64413in</Left>
+            <Top>6.15187in</Top>
+            <Left>5.89413in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>36</ZIndex>
@@ -1399,8 +1399,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line14">
-            <Top>2.53815in</Top>
-            <Left>7.81712in</Left>
+            <Top>6.14232in</Top>
+            <Left>7.06712in</Left>
             <Height>0.37604in</Height>
             <Width>0in</Width>
             <ZIndex>37</ZIndex>
@@ -1411,8 +1411,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line25">
-            <Top>2.53815in</Top>
-            <Left>8.6013in</Left>
+            <Top>6.14232in</Top>
+            <Left>7.8513in</Left>
             <Height>0.97742in</Height>
             <Width>0in</Width>
             <ZIndex>38</ZIndex>
@@ -1423,8 +1423,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line23">
-            <Top>3.51557in</Top>
-            <Left>6.64413in</Left>
+            <Top>7.11974in</Top>
+            <Left>5.89413in</Left>
             <Height>0in</Height>
             <Width>2.26213in</Width>
             <ZIndex>39</ZIndex>
@@ -1435,8 +1435,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line15">
-            <Top>3.51557in</Top>
-            <Left>6.64413in</Left>
+            <Top>7.11974in</Top>
+            <Left>5.89413in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>40</ZIndex>
@@ -1447,8 +1447,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line16">
-            <Top>3.1686in</Top>
-            <Left>7.81712in</Left>
+            <Top>6.77277in</Top>
+            <Left>7.06712in</Left>
             <Height>0.34697in</Height>
             <Width>0in</Width>
             <ZIndex>41</ZIndex>
@@ -1459,10 +1459,10 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line24">
-            <Top>0.95554in</Top>
-            <Left>1.73996in</Left>
+            <Top>1.33054in</Top>
+            <Left>2.48996in</Left>
             <Height>0in</Height>
-            <Width>1.00633in</Width>
+            <Width>2.26388in</Width>
             <ZIndex>42</ZIndex>
             <Style>
               <Border>
@@ -1471,8 +1471,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line17">
-            <Top>0.95554in</Top>
-            <Left>1.73996in</Left>
+            <Top>1.33054in</Top>
+            <Left>2.48996in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>43</ZIndex>
@@ -1483,9 +1483,9 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line18">
-            <Top>0.95554in</Top>
-            <Left>2.74629in</Left>
-            <Height>0.05989in</Height>
+            <Top>1.33054in</Top>
+            <Left>4.24629in</Left>
+            <Height>2.38247in</Height>
             <Width>0in</Width>
             <ZIndex>44</ZIndex>
             <Style>
@@ -1495,8 +1495,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line12">
-            <Top>2.02445in</Top>
-            <Left>1.59203in</Left>
+            <Top>2.39945in</Top>
+            <Left>2.34203in</Left>
             <Height>0.26473in</Height>
             <Width>0in</Width>
             <ZIndex>45</ZIndex>
@@ -1507,10 +1507,10 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line28">
-            <Top>3.51557in</Top>
-            <Left>5.18929in</Left>
+            <Top>7.11974in</Top>
+            <Left>3.99137in</Left>
             <Height>0in</Height>
-            <Width>1.14441in</Width>
+            <Width>1.59233in</Width>
             <ZIndex>46</ZIndex>
             <Style>
               <Border>
@@ -1519,8 +1519,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line20">
-            <Top>3.51557in</Top>
-            <Left>6.3337in</Left>
+            <Top>7.11974in</Top>
+            <Left>5.5837in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>47</ZIndex>
@@ -1531,8 +1531,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line29">
-            <Top>2.53815in</Top>
-            <Left>5.50384in</Left>
+            <Top>6.14232in</Top>
+            <Left>4.75384in</Left>
             <Height>0in</Height>
             <Width>0.82986in</Width>
             <ZIndex>48</ZIndex>
@@ -1543,9 +1543,9 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line21">
-            <Top>2.53815in</Top>
-            <Left>5.50384in</Left>
-            <Height>0.97743in</Height>
+            <Top>5.95235in</Top>
+            <Left>4.75384in</Left>
+            <Height>1.35736in</Height>
             <Width>0in</Width>
             <ZIndex>49</ZIndex>
             <Style>
@@ -1555,8 +1555,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line30">
-            <Top>2.53815in</Top>
-            <Left>6.3337in</Left>
+            <Top>6.14232in</Top>
+            <Left>5.5837in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>50</ZIndex>
@@ -1588,8 +1588,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.02551in</Top>
-            <Left>6.87328in</Left>
+            <Top>2.71301in</Top>
+            <Left>5.99828in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>51</ZIndex>
@@ -1621,8 +1621,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.02551in</Top>
-            <Left>7.58677in</Left>
+            <Top>2.71301in</Top>
+            <Left>6.71177in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>52</ZIndex>
@@ -1659,8 +1659,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.27551in</Top>
-            <Left>6.87328in</Left>
+            <Top>2.96301in</Top>
+            <Left>5.99828in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>53</ZIndex>
@@ -1692,8 +1692,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.27551in</Top>
-            <Left>7.58678in</Left>
+            <Top>2.96301in</Top>
+            <Left>6.71178in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>54</ZIndex>
@@ -1730,8 +1730,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.52551in</Top>
-            <Left>6.87328in</Left>
+            <Top>3.21301in</Top>
+            <Left>5.99828in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>55</ZIndex>
@@ -1763,8 +1763,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.52551in</Top>
-            <Left>7.58677in</Left>
+            <Top>3.21301in</Top>
+            <Left>6.71177in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>56</ZIndex>
@@ -1801,8 +1801,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.77551in</Top>
-            <Left>6.87329in</Left>
+            <Top>3.46301in</Top>
+            <Left>5.99829in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>57</ZIndex>
@@ -1834,8 +1834,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.77551in</Top>
-            <Left>7.58678in</Left>
+            <Top>3.46301in</Top>
+            <Left>6.71178in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>58</ZIndex>
@@ -1869,10 +1869,10 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>1.02551in</Top>
-            <Left>8.0833in</Left>
+            <Top>2.21301in</Top>
+            <Left>4.74343in</Left>
             <Height>0.53125in</Height>
-            <Width>0.55209in</Width>
+            <Width>0.88194in</Width>
             <ZIndex>59</ZIndex>
             <Style>
               <Border>
@@ -1886,10 +1886,10 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Textbox>
           <Line Name="Line26">
-            <Top>0.95607in</Top>
-            <Left>7.34409in</Left>
+            <Top>2.64357in</Top>
+            <Left>5.6212in</Left>
             <Height>0in</Height>
-            <Width>1.00633in</Width>
+            <Width>0.84789in</Width>
             <ZIndex>60</ZIndex>
             <Style>
               <Border>
@@ -1898,8 +1898,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line19">
-            <Top>0.95607in</Top>
-            <Left>7.34409in</Left>
+            <Top>2.64357in</Top>
+            <Left>6.46909in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>61</ZIndex>
@@ -1910,9 +1910,9 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line27">
-            <Top>0.95607in</Top>
-            <Left>8.35042in</Left>
-            <Height>0.05989in</Height>
+            <Top>1.55607in</Top>
+            <Left>5.47542in</Left>
+            <Height>0.09391in</Height>
             <Width>0in</Width>
             <ZIndex>62</ZIndex>
             <Style>
@@ -1941,8 +1941,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>3.43834in</Top>
-            <Left>1.26702in</Left>
+            <Top>3.81334in</Top>
+            <Left>2.01702in</Left>
             <Height>0.39236in</Height>
             <Width>0.92437in</Width>
             <ZIndex>63</ZIndex>
@@ -1958,8 +1958,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Textbox>
           <Line Name="Line32">
-            <Top>3.2936in</Top>
-            <Left>1.59203in</Left>
+            <Top>3.6686in</Top>
+            <Left>2.34203in</Left>
             <Height>0.14323in</Height>
             <Width>0in</Width>
             <ZIndex>64</ZIndex>
@@ -1991,8 +1991,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>3.87237in</Top>
-            <Left>1.06179in</Left>
+            <Top>4.24737in</Top>
+            <Left>1.81179in</Left>
             <Height>0.25in</Height>
             <Width>2.16391in</Width>
             <ZIndex>65</ZIndex>
@@ -2008,8 +2008,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Textbox>
           <Line Name="Line65">
-            <Top>2.15905in</Top>
-            <Left>0.99235in</Left>
+            <Top>2.53405in</Top>
+            <Left>1.74235in</Left>
             <Height>1.99595in</Height>
             <Width>0in</Width>
             <ZIndex>66</ZIndex>
@@ -2037,8 +2037,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line66">
-            <Top>2.15905in</Top>
-            <Left>3.29515in</Left>
+            <Top>2.53405in</Top>
+            <Left>4.04515in</Left>
             <Height>1.99595in</Height>
             <Width>0in</Width>
             <ZIndex>67</ZIndex>
@@ -2066,8 +2066,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line67">
-            <Top>2.15905in</Top>
-            <Left>0.99235in</Left>
+            <Top>2.53405in</Top>
+            <Left>1.74235in</Left>
             <Height>0in</Height>
             <Width>2.3028in</Width>
             <ZIndex>68</ZIndex>
@@ -2095,10 +2095,10 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line33">
-            <Top>0.95607in</Top>
-            <Left>5.94134in</Left>
+            <Top>3.83107in</Top>
+            <Left>5.19134in</Left>
             <Height>0in</Height>
-            <Width>1.14236in</Width>
+            <Width>3.38496in</Width>
             <ZIndex>69</ZIndex>
             <Style>
               <Border>
@@ -2107,9 +2107,9 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Line>
           <Line Name="Line34">
-            <Top>0.95607in</Top>
-            <Left>7.0837in</Left>
-            <Height>0.05989in</Height>
+            <Top>3.71301in</Top>
+            <Left>6.3337in</Left>
+            <Height>0.11545in</Height>
             <Width>0in</Width>
             <ZIndex>70</ZIndex>
             <Style>
@@ -2137,8 +2137,8 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>1.02552in</Top>
-            <Left>5.51425in</Left>
+            <Top>3.90052in</Top>
+            <Left>4.76425in</Left>
             <Height>0.53125in</Height>
             <Width>0.87153in</Width>
             <ZIndex>71</ZIndex>
@@ -2154,8 +2154,8 @@ ORDER BY dt DESC</CommandText>
             </Style>
           </Textbox>
           <Line Name="Line36">
-            <Top>0.95607in</Top>
-            <Left>5.94134in</Left>
+            <Top>3.83107in</Top>
+            <Left>5.19134in</Left>
             <Height>0.05989in</Height>
             <Width>0in</Width>
             <ZIndex>72</ZIndex>
@@ -2165,8 +2165,507 @@ ORDER BY dt DESC</CommandText>
               </Border>
             </Style>
           </Line>
+          <Textbox Name="Textbox16">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ТЭЦ-3</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>7.40794in</Top>
+            <Left>3.75278in</Left>
+            <Height>0.53125in</Height>
+            <Width>0.87153in</Width>
+            <ZIndex>73</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox17">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>АРП ДП-9</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>6.71176in</Top>
+            <Left>3.11737in</Left>
+            <Height>0.53125in</Height>
+            <Width>0.87153in</Width>
+            <ZIndex>74</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Реципиенты</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>6.21176in</Top>
+            <Left>1.67362in</Left>
+            <Height>0.53125in</Height>
+            <Width>0.87153in</Width>
+            <ZIndex>75</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>СКА</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>5.64926in</Top>
+            <Left>8.15615in</Left>
+            <Height>0.5in</Height>
+            <Width>0.55209in</Width>
+            <ZIndex>76</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line31">
+            <Top>7.30971in</Top>
+            <Left>4.11615in</Left>
+            <Height>0in</Height>
+            <Width>0.63769in</Width>
+            <ZIndex>77</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line35">
+            <Top>7.30971in</Top>
+            <Left>4.11615in</Left>
+            <Height>0.09444in</Height>
+            <Width>0in</Width>
+            <ZIndex>78</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line37">
+            <Top>5.95235in</Top>
+            <Left>4.75384in</Left>
+            <Height>0in</Height>
+            <Width>3.40242in</Width>
+            <ZIndex>79</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line38">
+            <Top>5.0775in</Top>
+            <Left>3.5132in</Left>
+            <Height>1.63426in</Height>
+            <Width>0in</Width>
+            <ZIndex>80</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line39">
+            <Top>5.8204in</Top>
+            <Left>3.5132in</Left>
+            <Height>0in</Height>
+            <Width>4.64306in</Width>
+            <ZIndex>81</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line40">
+            <Top>6.46176in</Top>
+            <Left>2.54515in</Left>
+            <Height>0in</Height>
+            <Width>0.96805in</Width>
+            <ZIndex>82</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line41">
+            <Top>5.8579in</Top>
+            <Left>7.06712in</Left>
+            <Height>0.09444in</Height>
+            <Width>0in</Width>
+            <ZIndex>83</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line42">
+            <Top>5.28583in</Top>
+            <Left>7.06712in</Left>
+            <Height>0.49707in</Height>
+            <Width>0in</Width>
+            <ZIndex>84</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line43">
+            <Top>5.0775in</Top>
+            <Left>3.5132in</Left>
+            <Height>0in</Height>
+            <Width>1.24064in</Width>
+            <ZIndex>85</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line44">
+            <Top>5.28583in</Top>
+            <Left>7.06712in</Left>
+            <Height>0in</Height>
+            <Width>1.64112in</Width>
+            <ZIndex>86</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line45">
+            <Top>5.15693in</Top>
+            <Left>5.6212in</Left>
+            <Height>0in</Height>
+            <Width>3.08704in</Width>
+            <ZIndex>87</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line46">
+            <Top>5.02498in</Top>
+            <Left>5.6212in</Left>
+            <Height>0in</Height>
+            <Width>2.9551in</Width>
+            <ZIndex>88</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line47">
+            <Top>1.02498in</Top>
+            <Left>8.70824in</Left>
+            <Height>4.26085in</Height>
+            <Width>0in</Width>
+            <ZIndex>89</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line48">
+            <Top>4.1925in</Top>
+            <Left>8.5763in</Left>
+            <Height>0.83248in</Height>
+            <Width>0in</Width>
+            <ZIndex>90</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line49">
+            <Top>4.155in</Top>
+            <Left>5.6212in</Left>
+            <Height>0in</Height>
+            <Width>3.08704in</Width>
+            <ZIndex>91</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line50">
+            <Top>2.34362in</Top>
+            <Left>8.5763in</Left>
+            <Height>1.76996in</Height>
+            <Width>0in</Width>
+            <ZIndex>92</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line51">
+            <Top>2.31862in</Top>
+            <Left>5.63045in</Left>
+            <Height>0in</Height>
+            <Width>3.08704in</Width>
+            <ZIndex>93</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line52">
+            <Top>1.68748in</Top>
+            <Left>8.58555in</Left>
+            <Height>0.60222in</Height>
+            <Width>0in</Width>
+            <ZIndex>94</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line53">
+            <Top>1.64998in</Top>
+            <Left>5.47542in</Left>
+            <Height>0in</Height>
+            <Width>3.23282in</Width>
+            <ZIndex>95</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line54">
+            <Top>1.55607in</Top>
+            <Left>4.89852in</Left>
+            <Height>0.23505in</Height>
+            <Width>0in</Width>
+            <ZIndex>96</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line55">
+            <Top>1.79112in</Top>
+            <Left>4.89852in</Left>
+            <Height>0in</Height>
+            <Width>3.67777in</Width>
+            <ZIndex>97</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line56">
+            <Top>3.71301in</Top>
+            <Left>4.24629in</Left>
+            <Height>0in</Height>
+            <Width>1.57767in</Width>
+            <ZIndex>98</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line57">
+            <Top>3.71144in</Top>
+            <Left>5.82396in</Left>
+            <Height>0.11545in</Height>
+            <Width>0in</Width>
+            <ZIndex>99</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Реципиенты</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>1.02498in</Top>
+            <Left>7.4013in</Left>
+            <Height>0.53125in</Height>
+            <Width>0.87847in</Width>
+            <ZIndex>100</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line58">
+            <Top>1.33054in</Top>
+            <Left>8.5888in</Left>
+            <Height>0.28194in</Height>
+            <Width>0in</Width>
+            <ZIndex>101</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line59">
+            <Top>1.33054in</Top>
+            <Left>8.2888in</Left>
+            <Height>0in</Height>
+            <Width>0.2875in</Width>
+            <ZIndex>102</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line62">
+            <Top>1.02498in</Top>
+            <Left>8.7013in</Left>
+            <Height>0.14044in</Height>
+            <Width>-0.10417in</Width>
+            <ZIndex>103</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line63">
+            <Top>1.02498in</Top>
+            <Left>8.71518in</Left>
+            <Height>0.14044in</Height>
+            <Width>0.10417in</Width>
+            <ZIndex>104</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
         </ReportItems>
-        <Height>4.50917in</Height>
+        <Height>8.11334in</Height>
         <Style>
           <Border>
             <Style>None</Style>
