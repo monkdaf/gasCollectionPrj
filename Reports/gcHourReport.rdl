@@ -921,7 +921,7 @@ WHERE [EquipmentClassID] = 10000
                                   <Value>=Fields!FE.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -956,7 +956,7 @@ WHERE [EquipmentClassID] = 10000
                                   <Value>=Fields!TE.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -991,7 +991,7 @@ WHERE [EquipmentClassID] = 10000
                                   <Value>=Fields!PE.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1026,7 +1026,7 @@ WHERE [EquipmentClassID] = 10000
                                   <Value>=Fields!QE.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1047,7 +1047,6 @@ WHERE [EquipmentClassID] = 10000
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1293,8 +1292,8 @@ WHERE [EquipmentClassID] = 10000
       <Prompt>Точка отбора:</Prompt>
       <ValidValues>
         <DataSetReference>
-          <DataSetName>DataSet3</DataSetName>
-          <ValueField>IDeq</ValueField>
+          <DataSetName>DataSet2</DataSetName>
+          <ValueField>ID</ValueField>
           <LabelField>Description</LabelField>
         </DataSetReference>
       </ValidValues>
