@@ -38,8 +38,8 @@
       ,[IDeq]
       ,[Description]
   FROM [KRR-PA-ISA95_PRODUCTION].[dbo].[v_GasCollectionData]
- where [dtStart] between (select convert(datetime,convert(varchar(11),@DtBegin,120)+'00:00',120))
-and (select convert(datetime,convert(varchar(11),@DtEnd,120)+'23:59',120)) and [IDeq] in (@sensor_name) 
+ where [dtStart] between (select convert(datetime,convert(varchar(11),@DtBegin,120)+'19:00',120))
+and (select convert(datetime,convert(varchar(11),@DtEnd,120)+'18:59',120)) and [IDeq] in (@sensor_name) 
 order by dtStart asc, IDeq desc</CommandText>
       </Query>
       <Fields>
@@ -1273,7 +1273,7 @@ WHERE [EquipmentClassID] = 10000
       <DataType>DateTime</DataType>
       <DefaultValue>
         <Values>
-          <Value>=Today()</Value>
+          <Value>=DateAdd("d",-1,Today())</Value>
         </Values>
       </DefaultValue>
       <Prompt>Дата начала:</Prompt>
@@ -1292,8 +1292,8 @@ WHERE [EquipmentClassID] = 10000
       <Prompt>Точка отбора:</Prompt>
       <ValidValues>
         <DataSetReference>
-          <DataSetName>DataSet2</DataSetName>
-          <ValueField>ID</ValueField>
+          <DataSetName>DataSet3</DataSetName>
+          <ValueField>IDeq</ValueField>
           <LabelField>Description</LabelField>
         </DataSetReference>
       </ValidValues>
