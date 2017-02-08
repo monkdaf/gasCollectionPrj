@@ -158,7 +158,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -169,9 +169,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>4.91576in</Left>
+            <Left>5.29076in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70002in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -204,7 +204,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>4.36368in</Left>
+            <Left>4.73868in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>3</ZIndex>
@@ -236,10 +236,10 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.39459in</Top>
-            <Left>6.37409in</Left>
+            <Top>2.3807in</Top>
+            <Left>5.99077in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -428,7 +428,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -439,9 +439,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>4.91576in</Left>
+            <Left>5.29076in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70002in</Width>
             <ZIndex>9</ZIndex>
             <Style>
               <Border>
@@ -474,7 +474,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>4.36368in</Left>
+            <Left>4.73868in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>10</ZIndex>
@@ -506,10 +506,10 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.64459in</Top>
-            <Left>6.3741in</Left>
+            <Top>2.6307in</Top>
+            <Left>5.99078in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>11</ZIndex>
             <Style>
               <Border>
@@ -534,7 +534,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -545,9 +545,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>4.91575in</Left>
+            <Left>5.29075in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70002in</Width>
             <ZIndex>12</ZIndex>
             <Style>
               <Border>
@@ -580,7 +580,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>4.36367in</Left>
+            <Left>4.73867in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>13</ZIndex>
@@ -602,7 +602,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -612,10 +612,10 @@ ORDER BY dt DESC</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.89459in</Top>
-            <Left>6.37409in</Left>
+            <Top>2.8807in</Top>
+            <Left>5.99077in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>14</ZIndex>
             <Style>
               <Border>
@@ -640,7 +640,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -651,9 +651,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>8.5552in</Left>
+            <Left>8.9052in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.7in</Width>
             <ZIndex>15</ZIndex>
             <Style>
               <Border>
@@ -686,7 +686,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>8.00312in</Left>
+            <Left>8.35312in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>16</ZIndex>
@@ -719,9 +719,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>10.01354in</Left>
+            <Left>9.60519in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.5918in</Width>
             <ZIndex>17</ZIndex>
             <Style>
               <Border>
@@ -746,7 +746,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -757,9 +757,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>8.55521in</Left>
+            <Left>8.90521in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.7in</Width>
             <ZIndex>18</ZIndex>
             <Style>
               <Border>
@@ -792,7 +792,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>8.00313in</Left>
+            <Left>8.35313in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>19</ZIndex>
@@ -825,9 +825,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>10.01355in</Left>
+            <Left>9.6052in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.5918in</Width>
             <ZIndex>20</ZIndex>
             <Style>
               <Border>
@@ -852,7 +852,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -863,9 +863,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>8.5552in</Left>
+            <Left>8.9052in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.7in</Width>
             <ZIndex>21</ZIndex>
             <Style>
               <Border>
@@ -898,7 +898,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>8.00312in</Left>
+            <Left>8.35312in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>22</ZIndex>
@@ -920,7 +920,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -931,9 +931,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>10.01354in</Left>
+            <Left>9.60519in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.5918in</Width>
             <ZIndex>23</ZIndex>
             <Style>
               <Border>
@@ -958,7 +958,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -969,9 +969,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>1.11769in</Left>
+            <Left>1.43019in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70001in</Width>
             <ZIndex>24</ZIndex>
             <Style>
               <Border>
@@ -1004,7 +1004,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>0.56561in</Left>
+            <Left>0.87811in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>25</ZIndex>
@@ -1037,9 +1037,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>2.57603in</Left>
+            <Left>2.14408in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>26</ZIndex>
             <Style>
               <Border>
@@ -1064,7 +1064,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -1075,9 +1075,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>1.1177in</Left>
+            <Left>1.4302in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70001in</Width>
             <ZIndex>27</ZIndex>
             <Style>
               <Border>
@@ -1110,7 +1110,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>0.56562in</Left>
+            <Left>0.87812in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>28</ZIndex>
@@ -1143,9 +1143,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.64459in</Top>
-            <Left>2.57604in</Left>
+            <Left>2.14409in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>29</ZIndex>
             <Style>
               <Border>
@@ -1170,7 +1170,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00;(0.00)</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -1181,9 +1181,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>1.11769in</Left>
+            <Left>1.43019in</Left>
             <Height>0.25in</Height>
-            <Width>1.45833in</Width>
+            <Width>0.70001in</Width>
             <ZIndex>30</ZIndex>
             <Style>
               <Border>
@@ -1216,7 +1216,7 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>0.56561in</Left>
+            <Left>0.87811in</Left>
             <Height>0.25in</Height>
             <Width>0.55208in</Width>
             <ZIndex>31</ZIndex>
@@ -1238,7 +1238,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1249,9 +1249,9 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.89459in</Top>
-            <Left>2.57603in</Left>
+            <Left>2.14408in</Left>
             <Height>0.25in</Height>
-            <Width>0.48958in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>32</ZIndex>
             <Style>
               <Border>

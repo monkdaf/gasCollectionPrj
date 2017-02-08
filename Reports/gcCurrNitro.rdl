@@ -262,7 +262,7 @@ ORDER BY dt DESC</CommandText>
             <Top>2.65905in</Top>
             <Left>2.72883in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57673in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -333,7 +333,7 @@ ORDER BY dt DESC</CommandText>
             <Top>2.90905in</Top>
             <Left>2.72884in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57673in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -404,7 +404,7 @@ ORDER BY dt DESC</CommandText>
             <Top>3.15905in</Top>
             <Left>2.72883in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57673in</Width>
             <ZIndex>7</ZIndex>
             <Style>
               <Border>
@@ -429,7 +429,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -462,7 +462,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -475,7 +475,7 @@ ORDER BY dt DESC</CommandText>
             <Top>3.40905in</Top>
             <Left>2.72884in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57673in</Width>
             <ZIndex>9</ZIndex>
             <Style>
               <Border>
@@ -546,7 +546,7 @@ ORDER BY dt DESC</CommandText>
             <Top>6.21176in</Top>
             <Left>6.08678in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>11</ZIndex>
             <Style>
               <Border>
@@ -617,7 +617,7 @@ ORDER BY dt DESC</CommandText>
             <Top>6.46176in</Top>
             <Left>6.08679in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>13</ZIndex>
             <Style>
               <Border>
@@ -642,7 +642,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -675,7 +675,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -688,7 +688,7 @@ ORDER BY dt DESC</CommandText>
             <Top>6.71176in</Top>
             <Left>6.08679in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>15</ZIndex>
             <Style>
               <Border>
@@ -759,7 +759,7 @@ ORDER BY dt DESC</CommandText>
             <Top>7.18919in</Top>
             <Left>6.08679in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57288in</Width>
             <ZIndex>17</ZIndex>
             <Style>
               <Border>
@@ -830,7 +830,7 @@ ORDER BY dt DESC</CommandText>
             <Top>7.43919in</Top>
             <Left>6.08681in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57288in</Width>
             <ZIndex>19</ZIndex>
             <Style>
               <Border>
@@ -855,7 +855,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -888,7 +888,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -901,7 +901,7 @@ ORDER BY dt DESC</CommandText>
             <Top>7.68919in</Top>
             <Left>6.08681in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57288in</Width>
             <ZIndex>21</ZIndex>
             <Style>
               <Border>
@@ -972,7 +972,7 @@ ORDER BY dt DESC</CommandText>
             <Top>1.39998in</Top>
             <Left>2.73264in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>23</ZIndex>
             <Style>
               <Border>
@@ -1043,7 +1043,7 @@ ORDER BY dt DESC</CommandText>
             <Top>1.64998in</Top>
             <Left>2.73265in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>25</ZIndex>
             <Style>
               <Border>
@@ -1114,7 +1114,7 @@ ORDER BY dt DESC</CommandText>
             <Top>1.89998in</Top>
             <Left>2.73264in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>27</ZIndex>
             <Style>
               <Border>
@@ -1139,7 +1139,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -1172,7 +1172,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1185,7 +1185,7 @@ ORDER BY dt DESC</CommandText>
             <Top>2.14998in</Top>
             <Left>2.73265in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.57291in</Width>
             <ZIndex>29</ZIndex>
             <Style>
               <Border>
@@ -1624,7 +1624,7 @@ ORDER BY dt DESC</CommandText>
             <Top>2.71301in</Top>
             <Left>6.71177in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.56243in</Width>
             <ZIndex>52</ZIndex>
             <Style>
               <Border>
@@ -1695,7 +1695,7 @@ ORDER BY dt DESC</CommandText>
             <Top>2.96301in</Top>
             <Left>6.71178in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.56243in</Width>
             <ZIndex>54</ZIndex>
             <Style>
               <Border>
@@ -1766,7 +1766,7 @@ ORDER BY dt DESC</CommandText>
             <Top>3.21301in</Top>
             <Left>6.71177in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.56243in</Width>
             <ZIndex>56</ZIndex>
             <Style>
               <Border>
@@ -1791,7 +1791,7 @@ ORDER BY dt DESC</CommandText>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0.00</Format>
+                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -1824,7 +1824,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>т.н.м3/ч</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1837,7 +1837,7 @@ ORDER BY dt DESC</CommandText>
             <Top>3.46301in</Top>
             <Left>6.71178in</Left>
             <Height>0.25in</Height>
-            <Width>0.45in</Width>
+            <Width>0.56243in</Width>
             <ZIndex>58</ZIndex>
             <Style>
               <Border>
