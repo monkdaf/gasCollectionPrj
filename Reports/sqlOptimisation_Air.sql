@@ -52,4 +52,6 @@ GROUP BY
 	t.dtStart,
 	CPSetc.FE,
 	DP9etc.FE,
-	SPC1etc.FE;
+	SPC1etc.FE
+
+ORDER BY t.dtStart 

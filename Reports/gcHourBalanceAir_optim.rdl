@@ -70,7 +70,9 @@ GROUP BY
 	t.dtStart,
 	CPSetc.FE,
 	DP9etc.FE,
-	SPC1etc.FE;</CommandText>
+	SPC1etc.FE
+
+ORDER BY t.dtStart </CommandText>
       </Query>
       <Fields>
         <Field Name="dtStart">
