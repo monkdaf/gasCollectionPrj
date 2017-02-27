@@ -24,30 +24,38 @@
             <Value>=Parameters!DtEnd.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT 
+        <CommandText>--DECLARE @DtBegin datetime = '2017-02-20';
+--DECLARE @DtEnd datetime = '2017-02-21';
+
+DECLARE @DtBeginFull datetime = @DtBegin+' 19:00';
+DECLARE @DtEndFull datetime = @DtEnd+' 18:59';
+
+SELECT 
 	t.dtStart,
 	Linde.FE as Linde, Linde.QE as Linde_Q, --FE_7303_04_F02
 	LindeKKC.FE as LindeKKC, LindeKKC.QE as LindeKKC_Q, --FE1.1
 	KKCARP.FE as KKCARP, KKCARP.QE as KKCARP_Q, --FE1.2
 	DP9_1.FE as DP9_1, DP9_1.QE as DP9_1_Q, --FE1.3
 	DP9_2.FE as DP9_2, DP9_2.QE as DP9_2_Q --FE1.4
-FROM [v_GasCollectionData] t
-LEFT JOIN [v_GasCollectionData] Linde ON Linde.IDeq = 10202 AND t.dtStart=Linde.dtStart
-LEFT JOIN [v_GasCollectionData] LindeKKC ON LindeKKC.IDeq = 10010 AND t.dtStart=LindeKKC.dtStart
-LEFT JOIN [v_GasCollectionData] KKCARP ON KKCARP.IDeq = 10016 AND t.dtStart = KKCARP.dtStart
-LEFT JOIN [v_GasCollectionData] DP9_1 ON DP9_1.IDeq = 10095 AND t.dtStart = DP9_1.dtStart
-LEFT JOIN [v_GasCollectionData] DP9_2 ON DP9_2.IDeq = 10101 AND t.dtStart = DP9_2.dtStart
+FROM (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) t
+LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) Linde ON Linde.IDeq = 10202 AND t.dtStart=Linde.dtStart
+LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) LindeKKC ON LindeKKC.IDeq = 10010 AND t.dtStart=LindeKKC.dtStart
+LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) KKCARP ON KKCARP.IDeq = 10016 AND t.dtStart = KKCARP.dtStart
+LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) DP9_1 ON DP9_1.IDeq = 10095 AND t.dtStart = DP9_1.dtStart
+LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) DP9_2 ON DP9_2.IDeq = 10101 AND t.dtStart = DP9_2.dtStart
 
 --WHERE t.dtEnd BETWEEN '2017-01-05 09:00' AND '2017-01-05 15:59'
-WHERE t.dtEnd BETWEEN (select convert(datetime,convert(varchar(11),@DtBegin,120)+'19:00',120))
-AND (select convert(datetime,convert(varchar(11),@DtEnd,120)+'18:59',120))
+--WHERE t.dtEnd BETWEEN (select convert(datetime,convert(varchar(11),@DtBegin,120)+'19:00',120))
+--AND (select convert(datetime,convert(varchar(11),@DtEnd,120)+'18:59',120))
 GROUP BY  
 	t.dtStart,
 	Linde.FE, Linde.QE,
 	LindeKKC.FE, LindeKKC.QE,
 	KKCARP.FE, KKCARP.QE,
 	DP9_1.FE, DP9_1.QE,
-	DP9_2.FE, DP9_2.QE</CommandText>
+	DP9_2.FE, DP9_2.QE
+
+ORDER BY t.dtStart </CommandText>
       </Query>
       <Fields>
         <Field Name="dtStart">
@@ -234,7 +242,7 @@ GROUP BY
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>12mm</Height>
+                  <Height>6.35mm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1766,7 +1774,7 @@ GROUP BY
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>9.26042mm</Height>
+                  <Height>7mm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -2145,7 +2153,7 @@ GROUP BY
             <DataSetName>CommonDataSet</DataSetName>
             <Top>21.58899mm</Top>
             <Left>13.97005mm</Left>
-            <Height>46.66042mm</Height>
+            <Height>38.75mm</Height>
             <Width>324.12849mm</Width>
             <ZIndex>1</ZIndex>
             <Style>
@@ -2233,7 +2241,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67865in</Top>
+            <Top>2.40365in</Top>
             <Left>2.19544in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2271,7 +2279,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67865in</Top>
+            <Top>2.40365in</Top>
             <Left>3.58488in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2309,7 +2317,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67726in</Top>
+            <Top>2.40365in</Top>
             <Left>4.97432in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2347,7 +2355,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67726in</Top>
+            <Top>2.40365in</Top>
             <Left>6.36376in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2385,9 +2393,9 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67865in</Top>
+            <Top>2.40365in</Top>
             <Left>0.55in</Left>
-            <Height>0.49862in</Height>
+            <Height>0.51in</Height>
             <Width>1.64544in</Width>
             <ZIndex>7</ZIndex>
             <Style>
@@ -2421,7 +2429,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92726in</Top>
+            <Top>2.65226in</Top>
             <Left>2.19544in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2457,7 +2465,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92726in</Top>
+            <Top>2.65226in</Top>
             <Left>3.58488in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2493,7 +2501,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92726in</Top>
+            <Top>2.65226in</Top>
             <Left>4.97432in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2529,7 +2537,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92726in</Top>
+            <Top>2.65226in</Top>
             <Left>6.36376in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2567,7 +2575,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67368in</Top>
+            <Top>2.40365in</Top>
             <Left>7.7532in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2605,7 +2613,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67368in</Top>
+            <Top>2.40365in</Top>
             <Left>9.14264in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2643,7 +2651,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67229in</Top>
+            <Top>2.40365in</Top>
             <Left>10.53208in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2681,7 +2689,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.67229in</Top>
+            <Top>2.40365in</Top>
             <Left>11.92152in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2717,7 +2725,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92229in</Top>
+            <Top>2.65226in</Top>
             <Left>7.7532in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2753,7 +2761,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92229in</Top>
+            <Top>2.65226in</Top>
             <Left>9.14264in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2789,7 +2797,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92229in</Top>
+            <Top>2.65226in</Top>
             <Left>10.53208in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2825,7 +2833,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
-            <Top>2.92229in</Top>
+            <Top>2.65226in</Top>
             <Left>11.92152in</Left>
             <Height>0.25in</Height>
             <Width>1.38944in</Width>
@@ -2843,7 +2851,7 @@ GROUP BY
             </Style>
           </Textbox>
         </ReportItems>
-        <Height>3.36333in</Height>
+        <Height>3.01958in</Height>
         <Style>
           <Border>
             <Style>None</Style>
