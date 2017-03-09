@@ -590,7 +590,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>тыс н.м3/ч</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -698,7 +698,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>МПа</Value>
+                                  <Value>=IIf((Parameters!sensor_name.Value &gt;= 10022 AND Parameters!sensor_name.Value &lt;= 10040) OR (Parameters!sensor_name.Value &gt;= 10131 AND Parameters!sensor_name.Value &lt;= 10137)  OR (Parameters!sensor_name.Value &gt;= 10181 AND Parameters!sensor_name.Value &lt;= 10182), "МПа", "кПа")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -923,7 +923,7 @@ ORDER BY IDeq ASC</CommandText>
                                   <Value>=Fields!FE.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
-                                    <Format>0.00</Format>
+                                    <Format>0,.00</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1229,7 +1229,7 @@ ORDER BY IDeq ASC</CommandText>
             <Top>2.15146in</Top>
             <Left>5.73875in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -1267,7 +1267,7 @@ ORDER BY IDeq ASC</CommandText>
             <Top>2.15146in</Top>
             <Left>2.19544in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -1288,7 +1288,7 @@ ORDER BY IDeq ASC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=Sum(Fields!TE.Value, "DataSet1")</Value>
+                    <Value>=Avg(Fields!TE.Value, "DataSet1")</Value>
                     <Style>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
@@ -1305,7 +1305,7 @@ ORDER BY IDeq ASC</CommandText>
             <Top>2.15146in</Top>
             <Left>3.37655in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>6</ZIndex>
             <Style>
               <Border>
@@ -1326,11 +1326,11 @@ ORDER BY IDeq ASC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>=Sum(Fields!PE.Value, "DataSet1")</Value>
+                    <Value>=Avg(Fields!PE.Value, "DataSet1")</Value>
                     <Style>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
+                      <Format>0.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -1343,7 +1343,7 @@ ORDER BY IDeq ASC</CommandText>
             <Top>2.15146in</Top>
             <Left>4.55765in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>7</ZIndex>
             <Style>
               <Border>
@@ -1415,9 +1415,9 @@ ORDER BY IDeq ASC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
             <Top>2.40146in</Top>
-            <Left>5.73597in</Left>
+            <Left>5.73875in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>9</ZIndex>
             <Style>
               <Border>
@@ -1451,9 +1451,9 @@ ORDER BY IDeq ASC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
             <Top>2.40146in</Top>
-            <Left>2.19267in</Left>
+            <Left>2.19544in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>10</ZIndex>
             <Style>
               <Border>
@@ -1487,9 +1487,9 @@ ORDER BY IDeq ASC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
             <Top>2.40146in</Top>
-            <Left>3.37377in</Left>
+            <Left>3.37655in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>11</ZIndex>
             <Style>
               <Border>
@@ -1510,7 +1510,7 @@ ORDER BY IDeq ASC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>=IIf((Parameters!sensor_name.Value &gt;= 10022 AND Parameters!sensor_name.Value &lt;= 10040) OR (Parameters!sensor_name.Value &gt;= 10131 AND Parameters!sensor_name.Value &lt;= 10137)  OR (Parameters!sensor_name.Value &gt;= 10181 AND Parameters!sensor_name.Value &lt;= 10182), "МПа", "кПа")</Value>
                     <Style>
                       <FontSize>12pt</FontSize>
                     </Style>
@@ -1523,9 +1523,9 @@ ORDER BY IDeq ASC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox31</rd:DefaultName>
             <Top>2.40146in</Top>
-            <Left>4.55487in</Left>
+            <Left>4.55765in</Left>
             <Height>0.25in</Height>
-            <Width>30mm</Width>
+            <Width>1.1811in</Width>
             <ZIndex>12</ZIndex>
             <Style>
               <Border>
@@ -1585,10 +1585,10 @@ ORDER BY IDeq ASC</CommandText>
           </Border>
         </Style>
       </Body>
-      <Width>11.50608in</Width>
+      <Width>11.68316in</Width>
       <Page>
         <PageFooter>
-          <Height>0.45in</Height>
+          <Height>0.37708in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -1599,7 +1599,7 @@ ORDER BY IDeq ASC</CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Дата генерации отчётов: </Value>
+                      <Value>Дата генерации отчёта: </Value>
                       <Style />
                     </TextRun>
                     <TextRun>
@@ -1613,7 +1613,7 @@ ORDER BY IDeq ASC</CommandText>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>ExecutionTime</rd:DefaultName>
-              <Top>0.13194in</Top>
+              <Top>0.06944in</Top>
               <Left>7.452in</Left>
               <Height>0.25208in</Height>
               <Width>3.8125in</Width>
