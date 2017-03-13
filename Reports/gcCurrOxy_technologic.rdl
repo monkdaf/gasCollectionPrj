@@ -5289,7 +5289,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.34612in</Top>
-            <Left>7.59536in</Left>
+            <Left>9.22036in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>162</ZIndex>
@@ -5322,7 +5322,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.34612in</Top>
-            <Left>8.30718in</Left>
+            <Left>9.93218in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>163</ZIndex>
@@ -5360,7 +5360,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.59612in</Top>
-            <Left>7.59536in</Left>
+            <Left>9.22036in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>164</ZIndex>
@@ -5393,7 +5393,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.59612in</Top>
-            <Left>8.30719in</Left>
+            <Left>9.93219in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>165</ZIndex>
@@ -5431,7 +5431,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.84612in</Top>
-            <Left>7.59536in</Left>
+            <Left>9.22036in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>166</ZIndex>
@@ -5464,7 +5464,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.84612in</Top>
-            <Left>8.30718in</Left>
+            <Left>9.93218in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>167</ZIndex>
@@ -5502,7 +5502,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.09612in</Top>
-            <Left>7.59536in</Left>
+            <Left>9.22036in</Left>
             <Height>0.25in</Height>
             <Width>0.70001in</Width>
             <ZIndex>168</ZIndex>
@@ -5535,7 +5535,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.09612in</Top>
-            <Left>8.30719in</Left>
+            <Left>9.93219in</Left>
             <Height>0.25in</Height>
             <Width>0.57497in</Width>
             <ZIndex>169</ZIndex>
@@ -5573,7 +5573,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.34612in</Top>
-            <Left>9.22398in</Left>
+            <Left>7.59898in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>170</ZIndex>
@@ -5606,7 +5606,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.34612in</Top>
-            <Left>9.9358in</Left>
+            <Left>8.3108in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>171</ZIndex>
@@ -5644,7 +5644,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.59612in</Top>
-            <Left>9.22398in</Left>
+            <Left>7.59898in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>172</ZIndex>
@@ -5677,7 +5677,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.59612in</Top>
-            <Left>9.93581in</Left>
+            <Left>8.31081in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>173</ZIndex>
@@ -5715,7 +5715,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>1.84612in</Top>
-            <Left>9.22398in</Left>
+            <Left>7.59898in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
             <ZIndex>174</ZIndex>
@@ -5748,7 +5748,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>1.84612in</Top>
-            <Left>9.9358in</Left>
+            <Left>8.3108in</Left>
             <Height>0.25in</Height>
             <Width>0.45in</Width>
             <ZIndex>175</ZIndex>
@@ -5786,7 +5786,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
             <Top>2.09612in</Top>
-            <Left>9.22398in</Left>
+            <Left>7.59898in</Left>
             <Height>0.25in</Height>
             <Width>0.70001in</Width>
             <ZIndex>176</ZIndex>
@@ -5819,7 +5819,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.09612in</Top>
-            <Left>9.93581in</Left>
+            <Left>8.31081in</Left>
             <Height>0.25in</Height>
             <Width>0.57497in</Width>
             <ZIndex>177</ZIndex>
@@ -6429,7 +6429,7 @@ GROUP BY
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>0.97033in</Top>
-            <Left>7.54618in</Left>
+            <Left>7.5822in</Left>
             <Height>0.25in</Height>
             <Width>0.39654in</Width>
             <ZIndex>204</ZIndex>
@@ -6471,7 +6471,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>К-II</Value>
+                    <Value>К-III</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
