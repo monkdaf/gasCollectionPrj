@@ -6312,7 +6312,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>0.97033in</Top>
+            <Top>0.93283in</Top>
             <Left>5.8302in</Left>
             <Height>0.25in</Height>
             <Width>0.39654in</Width>
@@ -6428,7 +6428,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>0.97033in</Top>
+            <Top>0.93283in</Top>
             <Left>7.5822in</Left>
             <Height>0.25in</Height>
             <Width>0.39654in</Width>
@@ -6486,7 +6486,7 @@ GROUP BY
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
-            <Top>0.97033in</Top>
+            <Top>0.93283in</Top>
             <Left>9.17091in</Left>
             <Height>0.25in</Height>
             <Width>0.39654in</Width>
@@ -10493,6 +10493,137 @@ GROUP BY
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Textbox Name="Textbox203">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Sum(Fields!PE315.Value, "CommonDataSet")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Format>0.00</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>0.93333in</Top>
+            <Left>4.5185in</Left>
+            <Height>0.25in</Height>
+            <Width>0.7in</Width>
+            <ZIndex>306</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox204">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>кПа</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>0.93333in</Top>
+            <Left>5.23032in</Left>
+            <Height>0.25in</Height>
+            <Width>0.45in</Width>
+            <ZIndex>307</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line82">
+            <Top>1.2745in</Top>
+            <Left>4.85898in</Left>
+            <Height>0in</Height>
+            <Width>4.70847in</Width>
+            <ZIndex>308</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line84">
+            <Top>1.2745in</Top>
+            <Left>9.56745in</Left>
+            <Height>0.05989in</Height>
+            <Width>0in</Width>
+            <ZIndex>309</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line85">
+            <Top>1.2745in</Top>
+            <Left>7.92014in</Left>
+            <Height>0.05989in</Height>
+            <Width>0in</Width>
+            <ZIndex>310</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line86">
+            <Top>1.2745in</Top>
+            <Left>6.1813in</Left>
+            <Height>0.05989in</Height>
+            <Width>0in</Width>
+            <ZIndex>311</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line88">
+            <Top>1.1945in</Top>
+            <Left>4.85898in</Left>
+            <Height>0.08in</Height>
+            <Width>0in</Width>
+            <ZIndex>312</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
         </ReportItems>
         <Height>8.69888in</Height>
         <Style>
