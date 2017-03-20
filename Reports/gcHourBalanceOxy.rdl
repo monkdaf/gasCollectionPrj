@@ -56,10 +56,10 @@ SELECT
 	comprKKC1.FE as comprKKC1, comprKKC1.QE as comprKKC1_Q,
 	comprKKC2.FE as comprKKC2, comprKKC2.QE as comprKKC2_Q,
 	LindeGas1.FE as LindeGas1, LindeGas1.QE as LindeGas1_Q,
-	LindeGas2.FE as LindeGas2, LindeGas2.QE as LindeGas2_Q,
+	LindeGas2.FE as LindeGas2, 
 	comprLindeGas1.FE as comprLindeGas1, comprLindeGas1.QE as comprLindeGas1_Q,
 	comprLindeGas2.FE as comprLindeGas2, comprLindeGas2.QE as comprLindeGas2_Q,
-	LindeGasTEP12.FE AS LindeGasTEP12, LindeGasTEP12.QE AS LindeGasTEP12_Q
+	LindeGasTEP12.FE AS LindeGasTEP12
 FROM (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) t
 LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) AKAR2 ON AKAR2.IDeq = 10180 AND t.dtStart=AKAR2.dtStart
 LEFT JOIN (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull) KAR30_6 ON KAR30_6.IDeq = 10162 AND t.dtStart = KAR30_6.dtStart
@@ -300,10 +300,6 @@ ORDER BY t.dtStart </CommandText>
           <DataField>LindeGas2</DataField>
           <rd:TypeName>System.Single</rd:TypeName>
         </Field>
-        <Field Name="LindeGas2_Q">
-          <DataField>LindeGas2_Q</DataField>
-          <rd:TypeName>System.Single</rd:TypeName>
-        </Field>
         <Field Name="comprLindeGas1">
           <DataField>comprLindeGas1</DataField>
           <rd:TypeName>System.Single</rd:TypeName>
@@ -322,10 +318,6 @@ ORDER BY t.dtStart </CommandText>
         </Field>
         <Field Name="LindeGasTEP12">
           <DataField>LindeGasTEP12</DataField>
-          <rd:TypeName>System.Single</rd:TypeName>
-        </Field>
-        <Field Name="LindeGasTEP12_Q">
-          <DataField>LindeGasTEP12_Q</DataField>
           <rd:TypeName>System.Single</rd:TypeName>
         </Field>
       </Fields>
@@ -393,12 +385,6 @@ ORDER BY t.dtStart </CommandText>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>29.99987mm</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>30mm</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>30mm</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>30mm</Width>
@@ -669,11 +655,9 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>16</ColSpan>
+                        <ColSpan>14</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
-                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -1380,11 +1364,9 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>6</ColSpan>
+                        <ColSpan>4</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
-                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -3027,10 +3009,8 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox546">
@@ -3040,9 +3020,9 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия низкого давл.</Value>
+                                  <Value>Линия низкого давления</Value>
                                   <Style>
-                                    <FontSize>12pt</FontSize>
+                                    <FontSize>11pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3085,10 +3065,8 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox295">
@@ -5799,10 +5777,8 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox63">
@@ -5857,10 +5833,8 @@ ORDER BY t.dtStart </CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox60">
@@ -9130,7 +9104,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox127">
+                        <Textbox Name="Textbox318">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -9184,7 +9158,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox124">
+                        <Textbox Name="Textbox319">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -9238,61 +9212,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox128">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>чистота, %</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox100</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox122">
+                        <Textbox Name="Textbox324">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -9311,60 +9231,6 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox94</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox205">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>чистота, %</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox100</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -10156,7 +10022,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox180">
+                        <Textbox Name="Textbox260">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -10210,7 +10076,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox181">
+                        <Textbox Name="Textbox264">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -10264,7 +10130,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox182">
+                        <Textbox Name="Textbox265">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -10318,7 +10184,7 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox183">
+                        <Textbox Name="Textbox269">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -12559,14 +12425,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="comprLindeGas1_Q">
+                        <Textbox Name="LindeGas1_Q2">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!comprLindeGas1_Q.Value</Value>
+                                  <Value>=Fields!LindeGas1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0.00</Format>
@@ -12578,7 +12444,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>comprLindeGas1_Q</rd:DefaultName>
+                          <rd:DefaultName>LindeGas1_Q</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -12594,14 +12460,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="comprLindeGas1">
+                        <Textbox Name="LindeGas3">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!comprLindeGas1.Value</Value>
+                                  <Value>=Fields!LindeGas1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0,.00</Format>
@@ -12613,7 +12479,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>comprLindeGas1</rd:DefaultName>
+                          <rd:DefaultName>LindeGas1</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -12629,49 +12495,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="comprLindeGas2_Q">
+                        <Textbox Name="LindeGas4">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!comprLindeGas2_Q.Value</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                    <Format>0.00</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>comprLindeGas2_Q</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="comprLindeGas2">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!comprLindeGas2.Value</Value>
+                                  <Value>=Fields!LindeGas2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0,.00</Format>
@@ -12683,42 +12514,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>comprLindeGas2</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="LindeGasTEP12_Q">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!LindeGasTEP12_Q.Value</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                    <Format>0.00</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>LindeGasTEP12_Q</rd:DefaultName>
+                          <rd:DefaultName>LindeGas2</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -13224,14 +13020,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="LindeGas1_Q">
+                        <Textbox Name="comprLindeGas1_Q">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!LindeGas1_Q.Value</Value>
+                                  <Value>=Fields!comprLindeGas1_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0.00</Format>
@@ -13243,7 +13039,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>LindeGas1_Q</rd:DefaultName>
+                          <rd:DefaultName>comprLindeGas1_Q</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -13259,14 +13055,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="LindeGas1">
+                        <Textbox Name="comprLindeGas1">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!LindeGas1.Value</Value>
+                                  <Value>=Fields!comprLindeGas1.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0,.00</Format>
@@ -13278,7 +13074,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>LindeGas1</rd:DefaultName>
+                          <rd:DefaultName>comprLindeGas1</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -13294,14 +13090,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="LindeGas2_Q">
+                        <Textbox Name="comprLindeGas2_Q">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!LindeGas2_Q.Value</Value>
+                                  <Value>=Fields!comprLindeGas2_Q.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0.00</Format>
@@ -13313,7 +13109,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>LindeGas2_Q</rd:DefaultName>
+                          <rd:DefaultName>comprLindeGas2_Q</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -13329,14 +13125,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="LindeGas2">
+                        <Textbox Name="comprLindeGas2">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!LindeGas2.Value</Value>
+                                  <Value>=Fields!comprLindeGas2.Value</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <Format>0,.00</Format>
@@ -13348,7 +13144,7 @@ ORDER BY t.dtStart </CommandText>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>LindeGas2</rd:DefaultName>
+                          <rd:DefaultName>comprLindeGas2</rd:DefaultName>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -15322,14 +15118,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox359">
+                        <Textbox Name="Textbox503">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Avg(Fields!comprLindeGas1_Q.Value, "CommonDataSet")</Value>
+                                  <Value>=Avg(Fields!LindeGas1_Q.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -15343,7 +15139,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>62</ZIndex>
+                          <ZIndex>100</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -15360,14 +15156,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox360">
+                        <Textbox Name="Textbox504">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!comprLindeGas1.Value, "CommonDataSet")</Value>
+                                  <Value>=Sum(Fields!LindeGas1.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -15381,7 +15177,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>64</ZIndex>
+                          <ZIndex>101</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -15398,52 +15194,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox361">
+                        <Textbox Name="Textbox506">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Avg(Fields!comprLindeGas2_Q.Value, "CommonDataSet")</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                    <Format>0.00</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>66</ZIndex>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <BackgroundColor>LightBlue</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox362">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Sum(Fields!comprLindeGas2.Value, "CommonDataSet")</Value>
+                                  <Value>=Sum(Fields!LindeGas2.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -15457,45 +15215,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>68</ZIndex>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <BackgroundColor>LightBlue</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox364">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Avg(Fields!LindeGasTEP12_Q.Value, "CommonDataSet")</Value>
-                                  <Style>
-                                    <FontSize>12pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                    <Format>0.00</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Center</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>70</ZIndex>
+                          <ZIndex>105</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -16044,14 +15764,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox379">
+                        <Textbox Name="Textbox468">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Avg(Fields!LindeGas1_Q.Value, "CommonDataSet")</Value>
+                                  <Value>=Avg(Fields!comprLindeGas1_Q.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -16065,7 +15785,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>100</ZIndex>
+                          <ZIndex>62</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -16082,14 +15802,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox380">
+                        <Textbox Name="Textbox469">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!LindeGas1.Value, "CommonDataSet")</Value>
+                                  <Value>=Sum(Fields!comprLindeGas1.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -16103,7 +15823,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>101</ZIndex>
+                          <ZIndex>64</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -16120,14 +15840,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox381">
+                        <Textbox Name="Textbox470">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Avg(Fields!LindeGas2_Q.Value, "CommonDataSet")</Value>
+                                  <Value>=Avg(Fields!comprLindeGas2_Q.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -16141,7 +15861,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>104</ZIndex>
+                          <ZIndex>66</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -16158,14 +15878,14 @@ ORDER BY t.dtStart </CommandText>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox382">
+                        <Textbox Name="Textbox471">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!LindeGas2.Value, "CommonDataSet")</Value>
+                                  <Value>=Sum(Fields!comprLindeGas2.Value, "CommonDataSet")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -16179,7 +15899,7 @@ ORDER BY t.dtStart </CommandText>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
-                          <ZIndex>105</ZIndex>
+                          <ZIndex>68</ZIndex>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
@@ -17070,8 +16790,6 @@ ORDER BY t.dtStart </CommandText>
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
-                <TablixMember />
-                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -17103,7 +16821,7 @@ ORDER BY t.dtStart </CommandText>
             <Top>21.58899mm</Top>
             <Left>13.97005mm</Left>
             <Height>45.19375mm</Height>
-            <Width>2231.79484mm</Width>
+            <Width>2171.79484mm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
