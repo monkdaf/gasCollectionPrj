@@ -10053,7 +10053,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value />
+                    <Value>=Sum(Fields!FE31_norm.Value, "CommonDataSet") + Sum(Fields!FE35_norm.Value, "CommonDataSet") + Sum(Fields!FE38_norm.Value, "CommonDataSet")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -10199,7 +10199,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value />
+                    <Value>=Sum(Fields!FE39_norm.Value, "CommonDataSet")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -10405,7 +10405,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value />
+                    <Value>=Sum(Fields!FE31_norm.Value, "CommonDataSet") + Sum(Fields!FE35_norm.Value, "CommonDataSet") + Sum(Fields!FE38_norm.Value, "CommonDataSet") + Sum(Fields!FE39_norm.Value, "CommonDataSet")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
