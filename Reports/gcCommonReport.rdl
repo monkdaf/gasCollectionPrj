@@ -26,6 +26,9 @@
           <QueryParameter Name="@sensor_name">
             <Value>=Parameters!sensor_name.Value</Value>
           </QueryParameter>
+          <QueryParameter Name="@SegmentState">
+            <Value>=Parameters!SegmentState.Value</Value>
+          </QueryParameter>
         </QueryParameters>
         <CommandText>--DECLARE @DtBegin datetime = '2016-02-20';
 --DECLARE @DtEnd datetime = '2017-03-21';
@@ -34,7 +37,7 @@
 DECLARE @DtBeginFull datetime = @DtBegin+' 19:00';
 DECLARE @DtEndFull datetime = @DtEnd+' 18:59';
 
-DECLARE @SegmenState int = 1;
+--DECLARE @SegmentState int = 1;
 
 SELECT 
 	s.dtStart AS dtStart,
@@ -46,7 +49,7 @@ SELECT
     --s.type AS type,
     s.IDeq AS IDeq,
     s.Description AS Description
-  FROM (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull AND sr.SegmentState = @SegmenState) s
+  FROM (SELECT NEWID() AS ID, sr.ActualStartTime AS dtStart, sr.ActualEndTime AS dtEnd, ma.Quantity AS FE, map.Quantity AS TE, mape.Quantity AS PE, mapq.Quantity AS QE, sr.SegmentState AS type, e.ID AS IDeq, e.Description FROM dbo.SegmentResponse AS sr INNER JOIN dbo.MaterialActual AS ma LEFT OUTER JOIN dbo.MaterialActualProperty AS map ON ma.ID = map.MaterialActual AND map.Description = 'TE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mape ON ma.ID = mape.MaterialActual AND mape.Description = 'PE' LEFT OUTER JOIN dbo.MaterialActualProperty AS mapq ON ma.ID = mapq.MaterialActual AND mapq.Description = 'QE' ON sr.ID = ma.SegmentResponseID INNER JOIN dbo.EquipmentActual AS ea ON sr.ID = ea.SegmentResponseID INNER JOIN dbo.Equipment AS e ON ea.EquipmentID = e.ID WHERE sr.ActualStartTime &gt;= @DtBeginFull AND sr.ActualStartTime &lt;= @DtEndFull AND sr.SegmentState = @SegmentState) s
   WHERE [IDeq] in (@sensor_name)
  --where [dtStart] between (select convert(datetime,convert(varchar(11),@DtBegin,120)+'19:00',120))
 --and (select convert(datetime,convert(varchar(11),@DtEnd,120)+'18:59',120)) and [IDeq] in (@sensor_name) 
@@ -1555,6 +1558,31 @@ ORDER BY IDeq ASC</CommandText>
           <ParameterValue>
             <Value>2</Value>
             <Label>Rus</Label>
+          </ParameterValue>
+        </ParameterValues>
+      </ValidValues>
+    </ReportParameter>
+    <ReportParameter Name="SegmentState">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>1</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Тип отчета:</Prompt>
+      <ValidValues>
+        <ParameterValues>
+          <ParameterValue>
+            <Value>1</Value>
+            <Label>По часам</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>2</Value>
+            <Label>По дням</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>3</Value>
+            <Label>По месяцам</Label>
           </ParameterValue>
         </ParameterValues>
       </ValidValues>
