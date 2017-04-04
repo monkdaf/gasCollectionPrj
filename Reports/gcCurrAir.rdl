@@ -184,41 +184,6 @@ ORDER BY dt DESC</CommandText>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="Textbox2">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>PE2.1</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.39459in</Top>
-            <Left>4.73868in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>3</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Textbox Name="Textbox3">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -226,7 +191,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "MPa", "МПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -240,7 +205,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.99077in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>4</ZIndex>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -259,7 +224,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Кислородная станция (К-1500)</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen station (K-1500)", "Кислородная станция (К-1500)")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -275,7 +240,7 @@ ORDER BY dt DESC</CommandText>
             <Left>4.36367in</Left>
             <Height>0.40625in</Height>
             <Width>2.50001in</Width>
-            <ZIndex>5</ZIndex>
+            <ZIndex>4</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -314,9 +279,9 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ЦПЦ, ТЭЦ ХВО-1, ХВО-2, 
-КЦ, ТЭЦ ХВО-3, ДП-5,6,7,8 и
-др. потребители</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "CPC, TEC-1 HVO-1, HVO-2, KC,TEX HVO-3, DP-5,6,7,8 etc.", "ЦПЦ, ТЭЦ ХВО-1, ХВО-2, 
+КЦ, ТЭЦ ХВО-3, ДП-5,6,7,8 и 
+др. потребители")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -332,7 +297,7 @@ ORDER BY dt DESC</CommandText>
             <Left>4.36367in</Left>
             <Height>0.53125in</Height>
             <Width>2.5in</Width>
-            <ZIndex>6</ZIndex>
+            <ZIndex>5</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -351,7 +316,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-9, ТЭЦ-3</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP-9, TEC-3", "ДП-9, ТЭЦ-3")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -367,7 +332,7 @@ ORDER BY dt DESC</CommandText>
             <Left>8.00313in</Left>
             <Height>0.53125in</Height>
             <Width>2.49999in</Width>
-            <ZIndex>7</ZIndex>
+            <ZIndex>6</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -386,9 +351,9 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>СПЦ-1, блюминг, РМЦ-1,
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "SPC, blooming, RMC-1, VTC,CTA CRP etc.", "СПЦ-1, блюминг, РМЦ-1,
 ВТЦ, ЦТА ЦРП и
-др. потребтели</Value>
+ др. потребтели")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -404,7 +369,7 @@ ORDER BY dt DESC</CommandText>
             <Left>0.56562in</Left>
             <Height>0.53125in</Height>
             <Width>2.5in</Width>
-            <ZIndex>8</ZIndex>
+            <ZIndex>7</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -442,45 +407,10 @@ ORDER BY dt DESC</CommandText>
             <Left>5.29076in</Left>
             <Height>0.25in</Height>
             <Width>0.70002in</Width>
-            <ZIndex>9</ZIndex>
+            <ZIndex>8</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox9">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>TE2.1</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.64459in</Top>
-            <Left>4.73868in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>10</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -510,7 +440,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.99078in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>11</ZIndex>
+            <ZIndex>9</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -548,45 +478,10 @@ ORDER BY dt DESC</CommandText>
             <Left>5.29075in</Left>
             <Height>0.25in</Height>
             <Width>0.70002in</Width>
-            <ZIndex>12</ZIndex>
+            <ZIndex>10</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox12">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>FE2.1</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.89459in</Top>
-            <Left>4.73867in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>13</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -602,7 +497,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -616,7 +511,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.99077in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>14</ZIndex>
+            <ZIndex>11</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -654,45 +549,10 @@ ORDER BY dt DESC</CommandText>
             <Left>8.9052in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
-            <ZIndex>15</ZIndex>
+            <ZIndex>12</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox15">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>PE2.2</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.39459in</Top>
-            <Left>8.35312in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>16</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -708,7 +568,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "MPa", "МПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -722,7 +582,7 @@ ORDER BY dt DESC</CommandText>
             <Left>9.60519in</Left>
             <Height>0.25in</Height>
             <Width>0.5918in</Width>
-            <ZIndex>17</ZIndex>
+            <ZIndex>13</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -760,45 +620,10 @@ ORDER BY dt DESC</CommandText>
             <Left>8.90521in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
-            <ZIndex>18</ZIndex>
+            <ZIndex>14</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox18">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>TE2.2</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.64459in</Top>
-            <Left>8.35313in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>19</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -828,7 +653,7 @@ ORDER BY dt DESC</CommandText>
             <Left>9.6052in</Left>
             <Height>0.25in</Height>
             <Width>0.5918in</Width>
-            <ZIndex>20</ZIndex>
+            <ZIndex>15</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -866,45 +691,10 @@ ORDER BY dt DESC</CommandText>
             <Left>8.9052in</Left>
             <Height>0.25in</Height>
             <Width>0.7in</Width>
-            <ZIndex>21</ZIndex>
+            <ZIndex>16</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox21">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>FE2.2</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.89459in</Top>
-            <Left>8.35312in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>22</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -920,7 +710,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -934,7 +724,7 @@ ORDER BY dt DESC</CommandText>
             <Left>9.60519in</Left>
             <Height>0.25in</Height>
             <Width>0.5918in</Width>
-            <ZIndex>23</ZIndex>
+            <ZIndex>17</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -972,45 +762,10 @@ ORDER BY dt DESC</CommandText>
             <Left>1.43019in</Left>
             <Height>0.25in</Height>
             <Width>0.70001in</Width>
-            <ZIndex>24</ZIndex>
+            <ZIndex>18</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox24">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>PE2.3</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.39459in</Top>
-            <Left>0.87811in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>25</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -1026,7 +781,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>МПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "MPa", "МПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1037,10 +792,10 @@ ORDER BY dt DESC</CommandText>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
             <Top>2.39459in</Top>
-            <Left>2.14408in</Left>
+            <Left>2.15798in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>26</ZIndex>
+            <ZIndex>19</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1078,45 +833,10 @@ ORDER BY dt DESC</CommandText>
             <Left>1.4302in</Left>
             <Height>0.25in</Height>
             <Width>0.70001in</Width>
-            <ZIndex>27</ZIndex>
+            <ZIndex>20</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox27">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>TE2.3</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.64459in</Top>
-            <Left>0.87812in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>28</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -1146,7 +866,7 @@ ORDER BY dt DESC</CommandText>
             <Left>2.14409in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>29</ZIndex>
+            <ZIndex>21</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1184,45 +904,10 @@ ORDER BY dt DESC</CommandText>
             <Left>1.43019in</Left>
             <Height>0.25in</Height>
             <Width>0.70001in</Width>
-            <ZIndex>30</ZIndex>
+            <ZIndex>22</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox30">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>FE2.3</Value>
-                    <Style>
-                      <FontFamily>Calibri</FontFamily>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Right</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>2.89459in</Top>
-            <Left>0.87811in</Left>
-            <Height>0.25in</Height>
-            <Width>0.55208in</Width>
-            <ZIndex>31</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
               </Border>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
@@ -1238,7 +923,7 @@ ORDER BY dt DESC</CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1252,7 +937,7 @@ ORDER BY dt DESC</CommandText>
             <Left>2.14408in</Left>
             <Height>0.25in</Height>
             <Width>0.57291in</Width>
-            <ZIndex>32</ZIndex>
+            <ZIndex>23</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1269,7 +954,7 @@ ORDER BY dt DESC</CommandText>
             <Left>1.78034in</Left>
             <Height>0.61459in</Height>
             <Width>0in</Width>
-            <ZIndex>33</ZIndex>
+            <ZIndex>24</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1281,7 +966,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.62292in</Left>
             <Height>0.61459in</Height>
             <Width>0in</Width>
-            <ZIndex>34</ZIndex>
+            <ZIndex>25</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1293,7 +978,7 @@ ORDER BY dt DESC</CommandText>
             <Left>9.2375in</Left>
             <Height>0.61459in</Height>
             <Width>0in</Width>
-            <ZIndex>35</ZIndex>
+            <ZIndex>26</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1305,7 +990,7 @@ ORDER BY dt DESC</CommandText>
             <Left>1.78034in</Left>
             <Height>0in</Height>
             <Width>2.58216in</Width>
-            <ZIndex>36</ZIndex>
+            <ZIndex>27</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1317,7 +1002,7 @@ ORDER BY dt DESC</CommandText>
             <Left>1.76993in</Left>
             <Height>1.58333in</Height>
             <Width>0in</Width>
-            <ZIndex>37</ZIndex>
+            <ZIndex>28</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1329,7 +1014,7 @@ ORDER BY dt DESC</CommandText>
             <Left>9.2375in</Left>
             <Height>1.59375in</Height>
             <Width>0in</Width>
-            <ZIndex>38</ZIndex>
+            <ZIndex>29</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1341,7 +1026,7 @@ ORDER BY dt DESC</CommandText>
             <Left>6.87409in</Left>
             <Height>0in</Height>
             <Width>2.36341in</Width>
-            <ZIndex>39</ZIndex>
+            <ZIndex>30</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1353,7 +1038,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.63451in</Left>
             <Height>0.54167in</Height>
             <Width>0in</Width>
-            <ZIndex>40</ZIndex>
+            <ZIndex>31</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1365,7 +1050,7 @@ ORDER BY dt DESC</CommandText>
             <Left>5.64493in</Left>
             <Height>0in</Height>
             <Width>3.59257in</Width>
-            <ZIndex>41</ZIndex>
+            <ZIndex>32</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1394,16 +1079,24 @@ ORDER BY dt DESC</CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Дата генерации отчёта: </Value>
+                      <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Generation date", "Дата генерации")</Value>
                       <Style>
-                        <FontFamily>Calibri</FontFamily>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
                       </Style>
                     </TextRun>
                     <TextRun>
-                      <Value>=Format(Globals!ExecutionTime, "dd.MM.yyyy, HH:mm:ss")</Value>
+                      <Value>:</Value>
                       <Style>
-                        <FontFamily>Calibri</FontFamily>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
                       </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
+                      <Style />
+                    </TextRun>
+                    <TextRun>
+                      <Value>=format(Globals!ExecutionTime, "dd.MM.yyyy HH:mm")</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>

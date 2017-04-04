@@ -833,7 +833,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ВРУ БР-2М</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU BR-2M", "ВРУ БР-2М")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -929,7 +929,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ВРУ БР-2М</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU BR-2M", "ВРУ БР-2М")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1092,7 +1092,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Потери</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Loss", "Потери")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1194,7 +1194,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ККЦ</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC", "ККЦ")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1254,7 +1254,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC", "ТЭЦ")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1316,7 +1316,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ЛиндеГаз</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "LindeGas", "ЛиндеГаз")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1376,7 +1376,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC 1", "ТЭЦ 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1438,7 +1438,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC 2", "ТЭЦ 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1499,7 +1499,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ 3</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC 3", "ТЭЦ 3")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1557,7 +1557,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ЛиндеГаз</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "LindeGas", "ЛиндеГаз")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1617,7 +1617,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ККЦ</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC", "ККЦ")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1677,7 +1677,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Мартен</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Marten", "Мартен")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1720,7 +1720,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Автогенные</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Autogen", "Автогенные")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1766,7 +1766,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Потери в линиях</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Loss in lines", "Потери в линиях")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1826,7 +1826,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Итого</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Итого")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1884,7 +1884,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Потери</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Loss", "Потери")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1924,7 +1924,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Баланс</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Balance", "Баланс")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2400,7 +2400,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Свеча 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Plug 1", "Свеча 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2456,7 +2456,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Свеча 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Plug 2", "Свеча 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2512,7 +2512,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Свеча 3</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Plug 3", "Свеча 3")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2611,7 +2611,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>на КРП 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "for KRP 1", "на КРП 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2669,7 +2669,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>на КРП 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "for KRP 2", "на КРП 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2901,7 +2901,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line 1", "Линия 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2959,7 +2959,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line 2", "Линия 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3015,7 +3015,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия низкого давления</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line of low pressure", "Линия низкого давления")</Value>
                                   <Style>
                                     <FontSize>11pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3071,7 +3071,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>вход</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "input", "вход")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3129,7 +3129,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-2а</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-2a", "ТВД-2a")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3299,7 +3299,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>вход</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "input", "вход")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3357,7 +3357,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-9</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-9", "ТВД-9")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3413,7 +3413,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-10</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-10", "ТВД-10")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3469,7 +3469,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-11</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-11", "ТВД-11")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3525,7 +3525,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>вход</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "input", "вход")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3583,7 +3583,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line 1", "Линия 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3641,7 +3641,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линия 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line 2", "Линия 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3699,7 +3699,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>КРП 1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KRP 1", "КРП 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3757,7 +3757,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>КРП 2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KRP 2", "КРП 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3858,7 +3858,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>нужды</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, " ", "нужды")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3904,7 +3904,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линде1</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Linde 1", "Линде 1")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3960,7 +3960,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Линде2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Linde 2", "Линде 2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -4016,7 +4016,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ1,2</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC 1,2", "ТЭЦ 1,2")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -4072,7 +4072,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТЭЦ3</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC 3", "ТЭЦ 3")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -4128,7 +4128,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>распред</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "distributed", "распределено")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -7316,7 +7316,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7370,7 +7370,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7424,7 +7424,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7478,7 +7478,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7532,7 +7532,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7586,7 +7586,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7640,7 +7640,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7694,7 +7694,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7748,7 +7748,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7802,7 +7802,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7856,7 +7856,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7910,7 +7910,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -7964,7 +7964,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8018,7 +8018,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8072,7 +8072,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8126,7 +8126,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8180,7 +8180,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8234,7 +8234,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8288,7 +8288,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8342,7 +8342,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8396,7 +8396,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8450,7 +8450,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8504,7 +8504,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8558,7 +8558,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8612,7 +8612,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8666,7 +8666,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8720,7 +8720,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8828,7 +8828,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8936,7 +8936,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -8990,7 +8990,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9044,7 +9044,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9152,7 +9152,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9206,7 +9206,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9260,7 +9260,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9314,7 +9314,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9368,7 +9368,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9422,7 +9422,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9476,7 +9476,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9530,7 +9530,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9584,7 +9584,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9638,7 +9638,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9692,7 +9692,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9746,7 +9746,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9800,7 +9800,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9854,7 +9854,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9908,7 +9908,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -9962,7 +9962,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10016,7 +10016,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10070,7 +10070,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10124,7 +10124,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10178,7 +10178,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10232,7 +10232,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>чистота, %</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10286,7 +10286,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10340,7 +10340,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10394,7 +10394,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10448,7 +10448,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10502,7 +10502,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10556,7 +10556,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10610,7 +10610,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10664,7 +10664,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10718,7 +10718,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10772,7 +10772,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>%</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10826,7 +10826,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "n.m3/h", "н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10880,7 +10880,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>%</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "purity, %", "чистота, %")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10934,7 +10934,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -10969,7 +10969,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -13578,7 +13578,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ИТОГО</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TOTAL", "ИТОГО")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -16424,11 +16424,23 @@ ORDER BY t.dtStart </CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Дата генерации отчёта: </Value>
+                      <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Generation date", "Дата генерации")</Value>
+                      <Style>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>:</Value>
+                      <Style>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
                       <Style />
                     </TextRun>
                     <TextRun>
-                      <Value>=Globals!ExecutionTime</Value>
+                      <Value>=format(Globals!ExecutionTime, "dd.MM.yyyy HH:mm")</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>

@@ -480,7 +480,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Description</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Description", "Наименование")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -595,7 +595,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>тыс н.м3/ч</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "ths n.m3/h", "тыс н.м3/ч")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -638,6 +638,7 @@ ORDER BY IDeq ASC</CommandText>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -649,7 +650,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>град С</Value>
+                                  <Value>ᵒC</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                   </Style>
@@ -1124,7 +1125,7 @@ ORDER BY IDeq ASC</CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ИТОГО</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TOTAL", "ИТОГО")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1468,22 +1469,34 @@ ORDER BY IDeq ASC</CommandText>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Дата генерации отчёта: </Value>
+                      <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Generation date", "Дата генерации")</Value>
+                      <Style>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>:</Value>
+                      <Style>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
                       <Style />
                     </TextRun>
                     <TextRun>
-                      <Value>=Globals!ExecutionTime</Value>
+                      <Value>=format(Globals!ExecutionTime, "dd.MM.yyyy HH:mm")</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
-                    <TextAlign>Right</TextAlign>
+                    <TextAlign>Left</TextAlign>
                   </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>ExecutionTime</rd:DefaultName>
               <Top>0.06944in</Top>
-              <Left>7.452in</Left>
+              <Left>0.577in</Left>
               <Height>0.25208in</Height>
               <Width>3.8125in</Width>
               <Style>
