@@ -3129,7 +3129,14 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-2a", "ТВД-2a")</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>-2a</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3185,7 +3192,14 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-5а</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>-5а</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -3241,7 +3255,7 @@ ORDER BY t.dtStart </CommandText>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>ТВД-8бис</Value>
+                                  <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-8bis", "ТВД-8бис")</Value>
                                   <Style>
                                     <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>

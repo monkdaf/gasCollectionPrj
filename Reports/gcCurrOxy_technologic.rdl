@@ -915,7 +915,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1152,7 +1152,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1223,7 +1223,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1365,7 +1365,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1436,7 +1436,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1578,7 +1578,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1649,7 +1649,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -1862,7 +1862,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2108,7 +2108,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-2а</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-2а</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2143,7 +2149,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-5а</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-5а</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2178,7 +2190,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-8бис</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-8bis", "ТВД-8бис")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2429,7 +2441,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТЭЦ-1</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC", "ТЭЦ")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-1</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -2563,7 +2584,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2800,7 +2821,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2904,7 +2925,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-12</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-12</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2939,7 +2966,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-13</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-13</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -2974,7 +3007,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-14</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-14</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3122,7 +3161,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТЭЦ-3</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC", "ТЭЦ")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-3</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -3263,7 +3311,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3500,7 +3548,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3571,7 +3619,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3713,7 +3761,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3784,7 +3832,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3926,7 +3974,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -3997,7 +4045,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4139,7 +4187,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4385,7 +4433,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-9</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-9</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4420,7 +4474,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-10</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-10</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4455,7 +4515,13 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-11</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD", "ТВД")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-11</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4682,7 +4748,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТЭЦ-2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC", "ТЭЦ")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-2</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -4840,7 +4915,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -4944,7 +5019,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5027,7 +5102,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5240,7 +5315,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5311,7 +5386,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5524,7 +5599,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5595,7 +5670,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5808,7 +5883,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -5894,7 +5969,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Учебный центр "ЛиндеГаз"</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Training center Linde Gas", "Учебный центр Линде Газ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -5961,7 +6036,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Кислородное производство</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen production", "Кислородное производство")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -6773,7 +6848,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Доменный цех №1</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Blast furnace shop No ", "Доменный цех №")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>1</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -6898,7 +6982,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-5</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP", "ДП")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-5</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -7181,7 +7274,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7226,7 +7319,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-6</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP", "ДП")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-6</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -7393,7 +7495,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7438,7 +7540,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-7</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP", "ДП")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-7</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -7605,7 +7716,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7650,7 +7761,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-8</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP", "ДП")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-8</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -7817,7 +7937,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7862,7 +7982,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Доменный цех №2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Blast furnace shop No ", "Доменный цех №")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>2</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -8016,7 +8145,16 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДП-9</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DP", "ДП")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>DimGray</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>-9</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -8183,7 +8321,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8264,7 +8402,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8357,7 +8495,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Газодувки КП</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Gas blowers KP", "Газодувки КП")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8410,7 +8548,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8503,7 +8641,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Линде</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Linde Gas", "Линде Газ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8556,7 +8694,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выдача кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "The results of oxygen", "Выдача кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -8614,7 +8752,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontWeight>Bold</FontWeight>
@@ -8710,7 +8848,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -8766,7 +8904,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8859,7 +8997,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-2а</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-2a", "ТВД-2а")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -8912,7 +9050,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9005,7 +9143,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-5а</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-5a", "ТВД-5а")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9058,7 +9196,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Распределено кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen distribution", "Распределено кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -9116,7 +9254,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontWeight>Bold</FontWeight>
@@ -9212,7 +9350,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -9268,7 +9406,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9361,7 +9499,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-8бис</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-8bis", "ТВД-8бис")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9414,7 +9552,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9507,7 +9645,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-9</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-9", "ТВД-9")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9560,7 +9698,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9653,7 +9791,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-10</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-10", "ТВД-10")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9706,7 +9844,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9799,7 +9937,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТВД-11</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TVD-11", "ТВД-11")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9852,7 +9990,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9945,7 +10083,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ТЭЦ-3</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "TEC-3", "ТЭЦ-3")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -9998,7 +10136,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10091,7 +10229,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДЦ №1</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DC No 1", "ДЦ №1")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10144,7 +10282,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10237,7 +10375,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ДЦ №2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "DC No 2", "ДЦ №2")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10290,7 +10428,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Потребление кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen consumption", "Потребление кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -10348,7 +10486,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>т.н.м3/ч</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "t.n.m3/h", "т.н.м3/ч")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontWeight>Bold</FontWeight>
@@ -10444,7 +10582,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -10538,7 +10676,7 @@ GROUP BY
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>кПа</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "kPa", "кПа")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10646,16 +10784,24 @@ GROUP BY
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Дата генерации отчёта: </Value>
+                      <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Generation date", "Дата генерации")</Value>
                       <Style>
-                        <FontFamily>Calibri</FontFamily>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
                       </Style>
                     </TextRun>
                     <TextRun>
-                      <Value>=Format(Globals!ExecutionTime, "dd.MM.yyyy, HH:mm:ss")</Value>
+                      <Value>:</Value>
                       <Style>
-                        <FontFamily>Calibri</FontFamily>
+                        <Format>dd.MM.yyyy  HH:mm</Format>
                       </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
+                      <Style />
+                    </TextRun>
+                    <TextRun>
+                      <Value>=format(Globals!ExecutionTime, "dd.MM.yyyy HH:mm")</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>

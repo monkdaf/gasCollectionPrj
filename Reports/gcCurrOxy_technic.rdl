@@ -5348,7 +5348,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>КРП цеха компрессии кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KRP oxygen compression shop", "КРП цеха компрессии кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -5407,7 +5407,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>КРП КЦ</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KRP KC", "КРП КЦ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -5963,7 +5963,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>КРП МЦ</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KRP OHF shop", "КРП МЦ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -6645,7 +6645,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Кислородное производство</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen production", "Кислородное производство")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -6753,7 +6753,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 2", "ВРУ №2")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -6856,7 +6856,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №6</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 6", "ВРУ №6")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -6947,7 +6947,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №7</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 7", "ВРУ №7")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7050,7 +7050,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №8</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 8", "ВРУ №8")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7418,8 +7418,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>I кол.
-на КЦ</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line No I to KC", "I кол. на КЦ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7466,8 +7465,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>II кол.
-на КЦ</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line No II to KC", "II кол. на КЦ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7514,7 +7512,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Реципиенты</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Recipients", "Реципиенты")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7597,8 +7595,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Кол.
-на МЦ</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line to OHF", "Кол. на МЦ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -7645,8 +7642,8 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Кол.
-на АвН</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Line to autogen", "Кол.
+на АвН")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10531,7 +10528,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -10596,12 +10601,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -10647,7 +10651,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Среднечасовые</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Average hourly", "Среднечасовые")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10702,7 +10706,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Текущие данные</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Current data", "Текущие данные")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <Format>0,.00</Format>
@@ -10791,7 +10795,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Производство кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen production", "Производство кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -10887,7 +10891,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 2", "ВРУ №2")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -10978,12 +10982,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -11049,7 +11052,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -11114,12 +11125,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -11165,12 +11175,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -11426,7 +11435,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №6</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 6", "ВРУ №6")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -11707,7 +11716,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №7</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 7", "ВРУ №7")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -11988,7 +11997,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №8</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 8", "ВРУ №8")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -12269,7 +12278,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Линде</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Linde Gas", "Линде Газ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -12551,7 +12560,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -12802,7 +12811,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -12867,12 +12884,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -12918,7 +12934,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Среднечасовые</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Average hourly", "Среднечасовые")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -12973,7 +12989,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Текущие данные</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Current data", "Текущие данные")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <Format>0,.00</Format>
@@ -13062,7 +13078,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Потребление кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen consumption", "Потребление кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -13158,7 +13174,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ККЦ 1 кл.</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC line 1", "ККЦ 1 кл.")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -13249,12 +13265,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -13320,7 +13335,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -13385,12 +13408,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -13436,12 +13458,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -13697,7 +13718,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ККЦ 2 кл.</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC line 2", "ККЦ 2 кл.")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -13978,7 +13999,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Мартен</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "OHF", "Мартен")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -14259,7 +14280,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Автоген</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Autogen", "Автоген")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -14541,7 +14562,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -15041,7 +15062,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>За прошлые сутки на 19:00</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Over the past day at 19:00", "За прошлые сутки на 19:00")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <Format>0,.00</Format>
@@ -15130,7 +15151,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Производство кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen production", "Производство кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -15188,7 +15209,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №2</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 2", "ВРУ №2")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -15279,7 +15300,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -15344,12 +15373,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -15395,12 +15423,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -15542,7 +15569,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №6</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 6", "ВРУ №6")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -15709,7 +15736,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №7</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 7", "ВРУ №7")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -15876,7 +15903,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ВРУ №8</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "VRU No 8", "ВРУ №8")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -16043,7 +16070,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Линде</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Linde Gas", "Линде Газ")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -16210,7 +16237,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
@@ -16383,7 +16410,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>За прошлые сутки на 19:00</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Over the past day at 19:00", "За прошлые сутки на 19:00")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <Format>0,.00</Format>
@@ -16472,7 +16499,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Потребление кислорода</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Oxygen consumption", "Потребление кислорода")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -16530,7 +16557,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ККЦ 1 кл.</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC line 1", "ККЦ 1 кл.")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -16621,7 +16648,15 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Чистота
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Purity", "Чистота")</Value>
+                    <Style>
+                      <FontFamily>Calibri</FontFamily>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">
 </Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
@@ -16686,12 +16721,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Расход</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Flow", "Расход")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -16737,12 +16771,11 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Выбросы</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Emissions", "Выбросы")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Format>0,.00</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -16884,7 +16917,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ККЦ 2 кл.</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "KKC line 2", "ККЦ 2 кл.")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -17051,7 +17084,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Мартен</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "OHF", "Мартен")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -17218,7 +17251,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Автоген</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Autogen", "Автоген")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                     </Style>
@@ -17385,7 +17418,7 @@ ORDER BY t.dtStart </CommandText>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Всего</Value>
+                    <Value>=Microsoft.VisualBasic.Interaction.iif(Parameters!language.Value = 1, "Total", "Всего")</Value>
                     <Style>
                       <FontFamily>Calibri</FontFamily>
                       <FontSize>11pt</FontSize>
