@@ -1,0 +1,9 @@
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\bin\Debug\runStoredProcedure.exe.config
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.csprojResolveAssemblyReference.cache
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.Form1.resources
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.Properties.Resources.resources
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.csproj.GenerateResource.Cache
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\bin\Debug\runStoredProcedure.exe
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\bin\Debug\runStoredProcedure.pdb
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.exe
+D:\Work\AMKP\VisualStudio\runStoredProcedure\runStoredProcedure\obj\Debug\runStoredProcedure.pdb
